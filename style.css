@@ -1,0 +1,5 @@
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #ffbf00;
+    border-radius: 5px;
+  }
