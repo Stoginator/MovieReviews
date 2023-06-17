@@ -1,5 +1,9 @@
 @import 'font.css';
 
+.roboto {
+    font-family: 'Roboto', system-ui;
+}
+
 /* Rounded border */
 hr.rounded {
     width: 100%;
@@ -7,13 +11,14 @@ hr.rounded {
     border-radius: 5px;
 }
 
-/* Posters */
-
-/* Headings */
 .site-header {
-    font-family: 'Roboto-Black', system-ui;
-    font-size: 28pt;
+    font-family: 'Roboto-Medium', system-ui;
     margin-bottom: 0;
     color: #ffbf00;
     text-align: center;
 }
+
+.site-footer {
+    text-align: center;
+}
+
