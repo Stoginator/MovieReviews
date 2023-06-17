@@ -1,3 +1,5 @@
+@import 'font.css';
+
 /* Rounded border */
 hr.rounded {
     width: 100%;
@@ -8,6 +10,10 @@ hr.rounded {
 /* Posters */
 
 /* Headings */
-h1, h2, h3 {
+.site-header {
+    font-family: 'Roboto-Black', system-ui;
+    font-size: 28pt;
+    margin-bottom: 0;
+    color: #ffbf00;
     text-align: center;
 }
