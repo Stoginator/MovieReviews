@@ -26,9 +26,44 @@ hr.rounded {
     text-align: center;
 }
 
-.review-text {
-    width: 50%;
-    text-align: justify;
+.review h4 {
+    width: 90%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.review-text {
+    font-size: large;
+    width: 95%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poster img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trailer {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .review-text {
+        width: 60%;
+        font-size: x-large;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .poster img {
+        display: block;
+        max-width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
