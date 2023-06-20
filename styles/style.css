@@ -24,6 +24,7 @@ hr.rounded {
 
 .review {
     text-align: center;
+    font-size: large;
 }
 
 .review h4 {
@@ -49,6 +50,7 @@ hr.rounded {
 .trailer {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
