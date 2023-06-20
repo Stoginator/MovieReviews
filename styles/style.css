@@ -6,8 +6,8 @@
 
 /* Rounded border */
 hr.rounded {
-    width: 100%;
-    border-top: 8px solid #ffbf00;
+    width: 80%;
+    border-top: 3px solid #ffbf00;
     border-radius: 5px;
 }
 
@@ -22,3 +22,13 @@ hr.rounded {
     text-align: center;
 }
 
+.review {
+    text-align: center;
+}
+
+.review-text {
+    width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
