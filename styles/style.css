@@ -11,6 +11,18 @@ hr.rounded {
     border-radius: 5px;
 }
 
+.spoilers hr {
+    width: 30%;
+    border-top: 3px solid #ffbf00;
+    border-radius: 5px;
+}
+
+.spoilers h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .site-header {
     font-family: 'Roboto-Medium', system-ui;
     margin-bottom: 0;
@@ -50,7 +62,6 @@ hr.rounded {
 .trailer {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
