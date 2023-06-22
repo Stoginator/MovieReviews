@@ -68,6 +68,10 @@ hr.rounded {
     border-radius: 5px;
 }
 
+.details {
+    text-align: center;
+}
+
 .details-header h4 {
     font-size: large;
     text-align: center;
