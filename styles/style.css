@@ -6,7 +6,7 @@
 
 /* Rounded border */
 hr.rounded {
-    width: 80%;
+    width: 100%;
     border-top: 3px solid #ffbf00;
     border-radius: 5px;
 }
@@ -33,7 +33,7 @@ hr.rounded {
 .site-footer {
     padding-top: 5px;
     text-align: center;
-    font-size: x-small;
+    font-size: small;
     height: 5em;
 }
 
