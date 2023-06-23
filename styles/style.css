@@ -33,7 +33,7 @@ hr.rounded {
 .site-footer {
     padding-top: 5px;
     text-align: center;
-    font-size: small;
+    font-size: x-small;
     height: 5em;
 }
 
@@ -60,6 +60,8 @@ hr.rounded {
 .poster img {
     max-width: 100%;
     height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .details-header hr {
@@ -85,14 +87,17 @@ hr.rounded {
     width: auto;
     margin-right: auto;
     margin-left: auto;
-    border-spacing: 0.5em 0em;
-
+    border-spacing: 5px 0em;
 }
 
 @media only screen and (min-width: 600px) {
 }
 
 @media only screen and (min-width: 1000px) {
+    .site-footer {
+        font-size: small;
+    }
+
     .review-text {
         width: 60%;
         font-size: x-large;
@@ -111,7 +116,7 @@ hr.rounded {
     }
 
     .details-header hr {
-        width: 30%;
+        width: 40%;
         font-size: large;
     }
 
