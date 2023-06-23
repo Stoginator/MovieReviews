@@ -60,7 +60,7 @@ hr.rounded {
 .poster img {
     max-width: 100%;
     height: auto;
-    padding-top: 10px;
+    padding-top: 1em;
     padding-bottom: 10px;
 }
 
@@ -83,11 +83,15 @@ hr.rounded {
 
 .details-table {
     font-size: medium;
-    text-align: justify;
+    text-align: left;
     width: auto;
     margin-right: auto;
     margin-left: auto;
-    border-spacing: 5px 0em;
+    border-spacing: 10px 0em;
+}
+
+.details-table td {
+    vertical-align: top;
 }
 
 @media only screen and (min-width: 600px) {
