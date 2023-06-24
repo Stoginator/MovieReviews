@@ -82,7 +82,7 @@ hr.rounded {
 }
 
 .details-table {
-    font-size: medium;
+    font-size: small;
     text-align: left;
     width: auto;
     margin-right: auto;
@@ -94,7 +94,10 @@ hr.rounded {
     vertical-align: top;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
+    .details-table {
+        font-size: medium;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
