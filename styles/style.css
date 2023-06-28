@@ -1,5 +1,9 @@
 @import 'font.css';
 
+body {
+    background-color: #f7f7f7;
+}
+
 .roboto {
     font-family: 'Roboto', system-ui;
 }
@@ -25,13 +29,66 @@ hr.rounded {
 
 .site-header {
     font-family: 'Roboto-Medium', system-ui;
+    font-size: small;
     margin-bottom: 0;
     color: #ffbf00;
     text-align: center;
 }
 
+/* Test styling
+.push {
+    margin-left: 43%;
+    transition: margin-left 1s;
+}
+
+.no-push {
+    margin-left: 0%;
+    transition: margin-left 1s;
+}
+*/
+
+.sidebar {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: #ffbf00;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: width 0.75s;
+
+}
+
+.sidebar-hidden {
+    height: 100%;
+    width: 0%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: #ffbf00;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: width 0.75s;
+}
+
+.sidebar a, .sidebar-hidden a {
+    padding: 1em 0em 1em 0em;
+    margin: 0em 0em 0em 0em;
+}
+
+.sidebar h1, .sidebar-hidden h1 {
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+    color: blue;
+}
+
 .site-footer {
-    padding-top: 5px;
+    padding-top: 10px;
     text-align: center;
     font-size: x-small;
     height: 5em;
@@ -101,6 +158,14 @@ hr.rounded {
 }
 
 @media only screen and (min-width: 1000px) {
+    .sidebar {
+        width: 15%;
+    }
+
+    .push {
+        margin-left: 18%;
+    }
+
     .site-footer {
         font-size: small;
     }
