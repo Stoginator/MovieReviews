@@ -37,6 +37,11 @@ hr.rounded {
     justify-content: center;
 }
 
+.site-title a:link, .site-title a:visited, .site-title a:active {
+    color: #ffbf00;
+    text-decoration: none;
+}
+
 .memoji {
     flex: 0.1;
     height: 40px;
@@ -205,8 +210,17 @@ hr.rounded {
 }
 
 @media only screen and (min-width: 1000px) {
+    .sidebar-toggle {
+        width: 90px;
+    }
+
     .site-title {
         font-size: 36px;
+    }
+
+    .memoji {
+        height: 85px;
+        width: 70px;
     }
 
     .sidebar {
