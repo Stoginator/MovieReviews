@@ -13,69 +13,86 @@
         <script src="../js/script.js"></script>
 	</head>
 	<body>
-        <div class="site-header">
-            <h1>Tanish's Movie Reviews</h1>
-            <hr class="rounded" />
-        </div>
-		<div class="review">
-			<h2><i>Mission: Impossible - Ghost Protcol</i></h2>
-			<h3>June 22, 2023 - 10:15 PM - Home Theater (4K UHD)</h3>
-			<h4><i>Running down the Burj Khalifa in IMAX</i></h4>
-			<h4>"Light the fuse."</h4>
-			<div class="review-text">
-			<p>Looking back on the fourth iteration of Tom Cruise’s <i>Mission: Impossible</i> series, it features the bones of many big-budget, modern action films: a fast-paced, twisting-and-turning plot, a steady dose of humor, and multiple leading stars. This formula is so replicable that many other films copy and paste it to varying degrees of success. What is the difference between <i>Mission: Impossible - Ghost Protocol</i> and the rest? I would argue it is a solid script, the concise vision of Brad Bird, and, of course, Tom Cruise.</p>
+        <nav id="sidebar" class="sidebar-hidden" role="navigation">
+            <div class="sidebar-header">
+                <h1 class="sidebar-title">TMR</h1>
+                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+            </div>
+            <hr class="rounded">
+            <div class="roboto">
+                <span><a href="../index.html">Home Page</a></span>
+                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
+                <span><a href="../pages/watched.html">Watched List</a></span>
+                <span><a href="../pages/about_me.html">About Me</a></span>
+            </div>
+        </nav>
+        <div id="main" class="no-push">
+            <header class="site-header">
+                <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
+                <h1 class="site-title roboto"><a href="../index.html">Tanish's Movie Reviews</a></h1>
+                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png"></img></a>
+            </header>
+            <hr class="rounded">
+			<div class="review">
+				<h2><i>Mission: Impossible - Ghost Protcol</i></h2>
+				<h3>June 22, 2023 - 10:15 PM - Home Theater (4K UHD)</h3>
+				<h4><i>Running down the Burj Khalifa in IMAX</i></h4>
+				<h4>"Light the fuse."</h4>
+				<div class="review-text">
+				<p>Looking back on the fourth iteration of Tom Cruise’s <i>Mission: Impossible</i> series, it features the bones of many big-budget, modern action films: a fast-paced, twisting-and-turning plot, a steady dose of humor, and multiple leading stars. This formula is so replicable that many other films copy and paste it to varying degrees of success. What is the difference between <i>Mission: Impossible - Ghost Protocol</i> and the rest? I would argue it is a solid script, the concise vision of Brad Bird, and, of course, Tom Cruise.</p>
 
-			<p>Brad Bird has directed three of PIXAR’s finest films: <i>The Incredibles</i> (2004), <i>Ratatouille</i> (2007), and <i>The Incredibles 2</i> (2018). Being animated films, each of those movies are lean and character-driven with a moral to the story. There’s no moral as far as I can tell in <i>Ghost Protocol</i>. The movie is tightly wound and based in its characters. Set months after <i>Mission: Impossible III</i>, the gap in time allows Ethan Hunt to receive a mysterious backstory. Why is he where he is in the beginning of the film? Moreover, <i>Ghost Protocol</i> tries to ground Ethan Hunt as a man, not a superhero and it works. While there is an emotional logic at work in <i>Ghost Protocol</i>, it does not extend past its characters; to paraphrase my dad, plotholes abound. In a movie dealing with top secret files and codes, it comes with the territory. There is some geopolitics, a generous helping of “disavowed” IMF agents, and lots of running! At this point, it is a contract that the filmmakers establish with the audience: if we make it fun, will you really care? Especially in a dazzling IMAX theater.</p>
+				<p>Brad Bird has directed three of PIXAR’s finest films: <i>The Incredibles</i> (2004), <i>Ratatouille</i> (2007), and <i>The Incredibles 2</i> (2018). Being animated films, each of those movies are lean and character-driven with a moral to the story. There’s no moral as far as I can tell in <i>Ghost Protocol</i>. The movie is tightly wound and based in its characters. Set months after <i>Mission: Impossible III</i>, the gap in time allows Ethan Hunt to receive a mysterious backstory. Why is he where he is in the beginning of the film? Moreover, <i>Ghost Protocol</i> tries to ground Ethan Hunt as a man, not a superhero and it works. While there is an emotional logic at work in <i>Ghost Protocol</i>, it does not extend past its characters; to paraphrase my dad, plotholes abound. In a movie dealing with top secret files and codes, it comes with the territory. There is some geopolitics, a generous helping of “disavowed” IMF agents, and lots of running! At this point, it is a contract that the filmmakers establish with the audience: if we make it fun, will you really care? Especially in a dazzling IMAX theater.</p>
 
-			<p>Tom Cruise carries this franchise. When Tom Cruise plays Ethan Hunt, it is very hard to detach from the screen and think of his forty plus years of service to cinema. The film is just too engaging. With that experience, though, there is dramatic treasure to be mined. At the end of this film, it comes through and lands the picture. He’s one of those actors whose emotion comes through his expression. There are two scenes, one in the Kremlin and one in Seattle, where his eyes say it all. It makes me miss seeing the guy in movies like <i>The Firm (1993)</i>. The key difference is that other actors could have conceivably played Mitch McDeere in <i>The Firm</i>. No one can play Ethan Hunt like Tom Cruise. It is only a recent discovery that Tom Cruise excels to untouched territory when he can combine his proclivity for thrill-seeking with his dramatic skill. In fact, Tom Cruise seems most comfortable pushing the envelope in big-budget, big-screen adventures where he gets to double-dip as a stuntman and an actor. As of this review, <i>Top Gun: Maverick (2022)</i> is the current peak of his cinematic powers in combining the thrill with emotional stakes. Watching <i>Ghost Protocol</i> seems to be where the seeds of this idea were planted. Each <i>Mission: Impossible</i> entry after <i>Ghost Protocol</i> improves upon the previous film. When you think about it, how absurd is that! How could you top running down the Burj Khalifa? Only Tom Cruise and his team have that answer … again and again and again.</p>
+				<p>Tom Cruise carries this franchise. When Tom Cruise plays Ethan Hunt, it is very hard to detach from the screen and think of his forty plus years of service to cinema. The film is just too engaging. With that experience, though, there is dramatic treasure to be mined. At the end of this film, it comes through and lands the picture. He’s one of those actors whose emotion comes through his expression. There are two scenes, one in the Kremlin and one in Seattle, where his eyes say it all. It makes me miss seeing the guy in movies like <i>The Firm (1993)</i>. The key difference is that other actors could have conceivably played Mitch McDeere in <i>The Firm</i>. No one can play Ethan Hunt like Tom Cruise. It is only a recent discovery that Tom Cruise excels to untouched territory when he can combine his proclivity for thrill-seeking with his dramatic skill. In fact, Tom Cruise seems most comfortable pushing the envelope in big-budget, big-screen adventures where he gets to double-dip as a stuntman and an actor. As of this review, <i>Top Gun: Maverick (2022)</i> is the current peak of his cinematic powers in combining the thrill with emotional stakes. Watching <i>Ghost Protocol</i> seems to be where the seeds of this idea were planted. Each <i>Mission: Impossible</i> entry after <i>Ghost Protocol</i> improves upon the previous film. When you think about it, how absurd is that! How could you top running down the Burj Khalifa? Only Tom Cruise and his team have that answer … again and again and again.</p>
 
-			<p>On the eve of <i>Dead Reckoning Part I</i>, it is no surprise that further entries in the series did not follow the action-comedy mold of <i>Ghost Protocol</i>. The chief takeaway seems to be: how can the tension, the drama, and the stakes be increased? Push the characters into a hole using big set pieces. <i>Rogue Nation</i> and, to a masterful extent, <i>Fallout</i> took the series down that avenue. In hindsight, it was a very wise decision. While <i>Ghost Protocol</i> is a very fun movie, the audience’s belief in the successful destiny of Ethan Hunt’s team is never in doubt. I suspect that <i>Dead Reckoning Part 1</i> will try to suspend or even destroy that belief. To my knowledge, only a couple franchise films have tried to rip the foundation from underneath the audience like <i>Harry Potter and the Half-Blood Prince</i> (2009) and <i>Avengers: Infinity War</i> (2018). Based on where he has been, I am willing to bet that Tom Cruise will aim much, much higher.</p>
+				<p>On the eve of <i>Dead Reckoning Part I</i>, it is no surprise that further entries in the series did not follow the action-comedy mold of <i>Ghost Protocol</i>. The chief takeaway seems to be: how can the tension, the drama, and the stakes be increased? Push the characters into a hole using big set pieces. <i>Rogue Nation</i> and, to a masterful extent, <i>Fallout</i> took the series down that avenue. In hindsight, it was a very wise decision. While <i>Ghost Protocol</i> is a very fun movie, the audience’s belief in the successful destiny of Ethan Hunt’s team is never in doubt. I suspect that <i>Dead Reckoning Part 1</i> will try to suspend or even destroy that belief. To my knowledge, only a couple franchise films have tried to rip the foundation from underneath the audience like <i>Harry Potter and the Half-Blood Prince</i> (2009) and <i>Avengers: Infinity War</i> (2018). Based on where he has been, I am willing to bet that Tom Cruise will aim much, much higher.</p>
+				</div>
 			</div>
-		</div>
-		<div class="details">
-			<div class="details-header">
-				<hr />
-				<h4 >Key Details</h4>
-				<hr />
+			<div class="details">
+				<div class="details-header">
+					<hr />
+					<h4 >Key Details</h4>
+					<hr />
+				</div>
+				<table class="details-table">
+					<tr>
+						<td><strong>Directed By</strong></td>
+						<td>Brad Bird</td>
+					</tr>
+					<tr>
+						<td><strong>Written By</strong></td>
+						<td>Josh Appelbaum<br>André Nemec<br>Christopher McQuarrie (uncredited)</td>
+					</tr>
+					<tr>
+						<td><strong>Release Date</strong></td>
+						<td>December 16, 2011</td>
+					</tr>
+					<tr>
+						<td><strong>Budget</strong></td>
+						<td>$145 million</td>
+					</tr>
+					<tr>
+						<td><strong>Box Office</strong></td>
+						<td>$694 million</td>
+					</tr>
+					<tr>
+						<td><strong>Production Company</strong></td>
+						<td>Paramount Pictures<br>Skydance Productions<br>TC Productions<br>Bad Robot Productions</td>
+					</tr>
+					<tr>
+						<td><strong>Distribution Company</strong></td>
+						<td>Paramount Pictures</td>
+					</tr>
+				</table>
 			</div>
-			<table class="details-table">
-				<tr>
-					<td><strong>Directed By</strong></td>
-					<td>Brad Bird</td>
-				</tr>
-				<tr>
-					<td><strong>Written By</strong></td>
-					<td>Josh Appelbaum<br>André Nemec<br>Christopher McQuarrie (uncredited)</td>
-				</tr>
-				<tr>
-					<td><strong>Release Date</strong></td>
-					<td>December 16, 2011</td>
-				</tr>
-				<tr>
-					<td><strong>Budget</strong></td>
-					<td>$145 million</td>
-				</tr>
-				<tr>
-					<td><strong>Box Office</strong></td>
-					<td>$694 million</td>
-				</tr>
-				<tr>
-					<td><strong>Production Company</strong></td>
-					<td>Paramount Pictures<br>Skydance Productions<br>TC Productions<br>Bad Robot Productions</td>
-				</tr>
-				<tr>
-					<td><strong>Distribution Company</strong></td>
-					<td>Paramount Pictures</td>
-				</tr>
-			</table>
+			<div class="poster">
+				<img src="../assets/posters/ghost_protocol_imax.jpeg" alt="Mission: Impossible - Ghost Protocol poster" />
+			</div>
+			<footer class="site-footer roboto">
+	            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+	            All trademarks are the property of the respective trademark owners.<br>
+	            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+		    </footer>
 		</div>
-		<div class="poster">
-			<img src="../assets/posters/ghost_protocol_imax.jpeg" alt="Mission: Impossible - Ghost Protocol poster" />
-		</div>
-		<footer class="site-footer roboto">
-            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-            All trademarks are the property of the respective trademark owners.<br>
-            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-	    </footer>
 	</body>
 </html>
