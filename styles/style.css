@@ -31,7 +31,7 @@ hr.rounded {
 .site-title {
     flex: 1;
     font-family: 'Roboto-Medium', system-ui;
-    font-size: 100%;
+    font-size: 18px;
     color: #ffbf00;
     text-align: center;
     justify-content: center;
@@ -186,6 +186,19 @@ hr.rounded {
 }
 
 @media only screen and (min-width: 500px) {
+    .sidebar-toggle {
+        width: 60px;
+    }
+
+    .site-title {
+        font-size: 30px;
+    }
+
+    .memoji {
+        height: 70px;
+        width: 60px;
+    }
+
     .details-table {
         font-size: medium;
     }
