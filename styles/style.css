@@ -195,7 +195,7 @@ hr.rounded {
     }
 
     .memoji {
-        height: 70px;
+        height: 75px;
         width: 60px;
     }
 
@@ -205,6 +205,10 @@ hr.rounded {
 }
 
 @media only screen and (min-width: 1000px) {
+    .site-title {
+        font-size: 36px;
+    }
+
     .sidebar {
         width: 15%;
     }
