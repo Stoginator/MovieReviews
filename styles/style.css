@@ -92,9 +92,32 @@ hr.rounded {
     transition: width 0.75s;
 }
 
-.sidebar a, .sidebar-hidden a {
-    padding: 1em 0em 1em 0em;
-    margin: 0em 0em 0em 0em;
+.sidebar a:active, .sidebar-hidden a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+.sidebar a, .sidebar-hidden a, .sidebar a:visited, .sidebar-hidden a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.sidebar a:hover, .sidebar-hidden a:hover {
+    background-color: lightgray;
+    opacity: 10%;
+}
+
+.sidebar ul, .sidebar-hidden ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 10%;
+}
+
+.sidebar li, .sidebar-hidden li {
+    padding: 1rem;
+    font-size: 16px;
 }
 
 .sidebar-header {
@@ -105,8 +128,9 @@ hr.rounded {
 
 .sidebar-title {
     flex: 1;
+    font-family: 'Roboto-Medium', system-ui;
     text-align: left;
-    color: blue;
+    color: black;
     margin-left: 5%;
 }
 
@@ -208,6 +232,22 @@ hr.rounded {
 
     .details-table {
         font-size: medium;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sidebar {
+        width: 25%;
+    }
+
+    .push {
+        margin-left: 28%;
+        transition: margin-left 0.75s;
+    }
+
+    .no-push {
+        margin-left: 0%;
+        transition: margin-left 0.75s;
     }
 }
 
