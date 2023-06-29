@@ -107,15 +107,11 @@ hr.rounded {
     opacity: 10%;
 }
 
-.sidebar ul, .sidebar-hidden ul {
-    list-style: none;
+.sidebar span, .sidebar-hidden span {
     display: block;
     padding: 0;
     margin: 0;
     height: 10%;
-}
-
-.sidebar li, .sidebar-hidden li {
     padding: 1rem;
     font-size: 16px;
 }
