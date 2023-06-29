@@ -15,24 +15,35 @@ hr.rounded {
     border-radius: 5px;
 }
 
-.spoilers hr {
-    width: 50%;
-    border-top: 3px solid #ffbf00;
-    border-radius: 5px;
-}
-
-.spoilers h4 {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .site-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar-toggle {
+    flex: 0.01;
+    width: 30px;
+    padding-right: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.site-title {
+    flex: 1;
     font-family: 'Roboto-Medium', system-ui;
-    font-size: small;
-    margin-bottom: 0;
+    font-size: 100%;
     color: #ffbf00;
     text-align: center;
+    justify-content: center;
+}
+
+.memoji {
+    flex: 0.1;
+    height: 40px;
+    width: 30px;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: right;
 }
 
 /* Test styling
@@ -87,6 +98,17 @@ hr.rounded {
     color: blue;
 }
 
+.sidebar-header {
+    display: inline-block;
+}
+
+.sidebar-title {
+}
+
+.sidebar-exit {
+
+}
+
 .site-footer {
     padding-top: 10px;
     text-align: center;
@@ -104,6 +126,18 @@ hr.rounded {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.spoilers hr {
+    width: 50%;
+    border-top: 3px solid #ffbf00;
+    border-radius: 5px;
+}
+
+.spoilers h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .review-text {
@@ -164,6 +198,12 @@ hr.rounded {
 
     .push {
         margin-left: 18%;
+        transition: margin-left 0.75s;
+    }
+
+    .no-push {
+        margin-left: 0%;
+        transition: margin-left 0.75s;
     }
 
     .site-footer {

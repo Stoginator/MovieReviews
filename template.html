@@ -10,16 +10,32 @@
         <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
         <link rel="manifest" href="site.webmanifest" />
+        <script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body>
-        <div class="site-header roboto">
-            <h1>Tanish's Movie Reviews</h1>
+        <nav id="sidebar" class="sidebar-hidden" role="navigation">
+            <div class="sidebar-header">
+                <h1>TMR</h1>
+                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="assets/icons/close.svg" onclick="controlNav()"></input>
+            </div>
             <hr class="rounded">
+            <span><a href="index.html">Home Page</a></span>
+            <span><a href="#">Favorite Films</a></span>
+            <span><a href="#">Watched List</a></span>
+            <span><a href="assets/about_me.html">About Me</a></span>
+        </nav>
+        <div id="main" class="no-push">
+            <header class="site-header">
+                <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="assets/icons/menu.svg" onclick="controlNav()"></input>
+                <h1 class="site-title roboto"><a href="index.html">TMR</a></h1>
+                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="assets/icons/memoji.png"></img></a>
+            </header>
+            <hr class="rounded">
+            <footer class="site-footer roboto">
+                Roboto font designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+                All trademarks are the property of the respective trademark owners.<br>
+                &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+            </footer>
         </div>
-        <footer class="site-footer roboto">
-            Roboto font designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-            All trademarks are the property of the respective trademark owners.<br>
-            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-        </footer>
     </body>
 </html>
