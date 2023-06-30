@@ -74,8 +74,7 @@ hr.rounded {
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    transition: width 0.75s;
-
+    transition: width 0.5s;
 }
 
 .sidebar-hidden {
@@ -89,7 +88,7 @@ hr.rounded {
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    transition: width 0.75s;
+    transition: width 0.5s;
 }
 
 .sidebar a:active, .sidebar-hidden a:active {
@@ -124,6 +123,7 @@ hr.rounded {
 
 .sidebar-title {
     flex: 1;
+    font-size: 36px;
     font-family: 'Roboto-Medium', system-ui;
     text-align: left;
     color: black;
