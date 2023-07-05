@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
         <title>Thelma and Louise (1991) | TMR</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../styles/style.css" />
-        <link rel="shortcut icon" href="../favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png" />
-        <link rel="manifest" href="../site.webmanifest" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+        <link rel="manifest" href="../site.webmanifest">
         <script type="text/javascript" src="../js/script.js"></script>
 	</head>
     <body>
        <nav id="sidebar" class="sidebar-hidden" role="navigation">
-            <div class="sidebar-header">
-                <h1 class="sidebar-title">TMR</h1>
+            <header class="sidebar-header">
+                <p class="sidebar-title">TMR</p>
                 <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
-            </div>
+            </header>
             <hr class="rounded">
-            <div class="roboto">
+            <section class="roboto">
                 <span><a href="../index.html">Home Page</a></span>
                 <span><a href="../pages/fav_films.html">Favorite Films</a></span>
                 <span><a href="../pages/watched.html">Watched List</a></span>
                 <span><a href="../pages/about_me.html">About Me</a></span>
-            </div>
+            </section>
         </nav>
-        <div id="main" class="no-push">
+        <main id="main" class="no-push">
             <header class="site-header">
                 <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
-                <h1 class="site-title roboto"><a href="../index.html">Tanish's Movie Reviews</a></h1>
+                <p class="site-title roboto"><a href="../index.html">Tanish's Movie Reviews</a></p>
                 <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png"></img></a>
             </header>
             <hr class="rounded">
-            <div class="review">
-                <h2><cite>Thelma and Louise</cite></h2>
-                <h3>June 26, 2023 - 11:32 PM - Home Theater (4K UHD)</h3>
-                <h4><i>They've got Wild Turkey and a vengeance.</i></h4>
-                <h4>"Good morning everybody, this is a robbery."</h4>
-                <div class="review-text">
+            <section class="review">
+                <h1><cite>Thelma and Louise</cite></h1>
+                <p>June 26, 2023 - 11:32 PM - Home Theater (4K UHD)</p>
+                <p><i>They've got Wild Turkey and a vengeance.</i></p>
+                <q>Good morning everybody, this is a robbery.</q>
+                <div class="spoilers">
+                    <hr />
+                    <p><strong>Spoilers Ahead</strong></p>
+                    <hr />
+                </div>
+                <section class="review-text">
                     <p>Going blind into this experience, one might think it is a conventional buddy movie: two friends go through an adventure together and come out changed on the other side. Describing <cite>Thelma and Louise</cite> this way is true, but wildly insufficient.
                     </p>
                     
@@ -53,14 +58,14 @@
                     <p>It is difficult not to notice the particularly damning portrait of men in <cite>Thelma and Louise</cite>. They all see women as possessions, interested in the hunt and capture, but never the preservation. Thelma’s husband (Christopher McDonald) is a harsh, inattentive, likely unfaithful brat (but a hilariously dumb one too!). Louise’s husband, an Elvis clone (Michael Madson) born three decades too late, seems incapable of truly listening to her. A highway hitchhiker (Brad Pitt) is a womanizer and a thief. The only redeemable male character is the state police detective played by Harvey Keitel. The key difference between him and the others is that he knows Thelma and Louise are not controllable. Staying true to his word, he does not try. He seeks to reason with them because he knows what they are running away from. Unlike the others in their life, he is the only one who will learn a thing or two from their decisions.</p>
 
                     <p>Like most, I was dumbstruck by the ending. Thelma and Louise would never stop running away, but does it make sense for them to go out without a fight? I wondered why… and then it hit me. When Thelma gives Louise the go-ahead to drive off the cliff, what she really is telling Louise is “I'd rather be out there than here. Plus, I’ve had enough fun, Louise. Hit it.” The final choice of Thelma and Louise is the ultimate expression of the world’s lack of control on these women. It might seem weird for such a scene to make me smile, but it does. Thelma and Louise set themselves free.</p>
-                </div>
-            </div>
-            <div class="details">
-                <div class="details-header">
+                </section>
+            </section>
+            <section class="details">
+                <header class="details-header">
                     <hr />
                     <h4 >Key Details</h4>
                     <hr />
-                </div>
+                </header>
                 <table class="details-table">
                     <tr>
                         <td><strong>Directed By</strong></td>
@@ -91,15 +96,17 @@
                         <td>Metro-Goldwyn-Mayer</td>
                     </tr>
                 </table>
-            </div>
-            <div class="poster">
-                <img src="../assets/posters/thelma_and_louise.jpg" alt="Thelma and Louise poster" />
-            </div>
+            </section>
+            <section class="poster">
+                <img
+                    src="../assets/posters/thelma_and_louise.jpg" 
+                    alt="Thelma and Louise poster" />
+            </section>
             <footer class="site-footer roboto">
                 Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
                 All trademarks are the property of the respective trademark owners.<br>
                 &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
             </footer>
-        </div>
+        </main>
     </body>
 </html>

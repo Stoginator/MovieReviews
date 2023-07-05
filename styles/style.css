@@ -30,11 +30,13 @@ hr.rounded {
 
 .site-title {
     flex: 1;
-    font-family: 'Roboto-Medium', system-ui;
+    font-family: 'Roboto-Black', system-ui;
     font-size: 18px;
     color: #ffbf00;
     text-align: center;
     justify-content: center;
+    margin-top: 0.7em;
+    margin-bottom: 0;
 }
 
 .site-title a:link, .site-title a:visited, .site-title a:active {
@@ -124,7 +126,7 @@ hr.rounded {
 .sidebar-title {
     flex: 1;
     font-size: 36px;
-    font-family: 'Roboto-Medium', system-ui;
+    font-family: 'Roboto-Black', system-ui;
     text-align: left;
     color: black;
     margin-left: 5%;
@@ -155,13 +157,17 @@ hr.rounded {
     margin-right: auto;
 }
 
+.spoilers {
+    margin: 1em 0em 0.25em 0em;
+}
+
 .spoilers hr {
     width: 50%;
     border-top: 3px solid #ffbf00;
     border-radius: 5px;
 }
 
-.spoilers h4 {
+.spoilers p {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -180,6 +186,8 @@ hr.rounded {
     height: auto;
     padding-top: 1em;
     padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .details-header hr {
