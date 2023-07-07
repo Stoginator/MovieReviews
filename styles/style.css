@@ -1,9 +1,7 @@
 @import 'font.css';
 
 body {
-    /*background-color: #f7f7f7;*/
-    background-color: black;
-    color: white;
+    background-color: #f7f7f7;
 }
 
 .roboto {
@@ -223,6 +221,68 @@ hr.rounded {
     vertical-align: top;
 }
 
+.main-box {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding-bottom: 1em;
+    background: black;
+    border-radius: 1em;
+    box-shadow: -10px 5px 5px red;
+}
+
+.main-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.main-box:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1.2em;
+    width: 100%;
+    height: 40%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+    z-index: 1;
+    border-radius: 1em;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.main-box-left {
+    font-family: "Roboto-Black", system-ui;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-left: 1em;
+    z-index: 2;
+}
+
+.main-box-right {
+    font-family: "Roboto", system-ui;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    z-index: 2; 
+    text-align: right;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-right: 1em;
+}
+
+
+
 @media only screen and (min-width: 500px) {
     .sidebar-toggle {
         width: 60px;
@@ -315,4 +375,24 @@ hr.rounded {
     .details-table {
         font-size: large;
     }
+
+    .main-box {
+        width: 400px;
+    }
 }
+/* Dark mode in future
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: #EEEEEE;
+    }
+    
+    .site-header input {
+        style="filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);"
+    }
+
+    body.light-theme {
+        background-color: #f7f7f7;
+    }
+}
+*/
