@@ -55,7 +55,7 @@ hr.rounded {
 
 /* Test styling
 .push {
-    margin-left: 43%;
+    margin-left: 0%;
     transition: margin-left 1s;
 }
 
@@ -67,7 +67,7 @@ hr.rounded {
 
 .sidebar {
     height: 100%;
-    width: 100%;
+    width: 50%;
     left: 0;
     top: 0;
     position: fixed;
@@ -76,7 +76,8 @@ hr.rounded {
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    transition: width 0.5s;
+    transition: width 0.4s;
+    z-index: 3;
 }
 
 .sidebar-hidden {
@@ -90,7 +91,8 @@ hr.rounded {
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    transition: width 0.5s;
+    transition: width 0.4s;
+    z-index: 3;
 }
 
 .sidebar a:active, .sidebar-hidden a:active {
@@ -284,8 +286,6 @@ hr.rounded {
     margin-right: 1em;
 }
 
-
-
 @media only screen and (min-width: 500px) {
     .sidebar-toggle {
         width: 60px;
@@ -318,6 +318,12 @@ hr.rounded {
     .no-push {
         margin-left: 0%;
         transition: margin-left 0.75s;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .main-box {
+        width: 400px;
     }
 }
 
@@ -377,10 +383,6 @@ hr.rounded {
 
     .details-table {
         font-size: large;
-    }
-
-    .main-box {
-        width: 400px;
     }
 }
 /* Dark mode in future
