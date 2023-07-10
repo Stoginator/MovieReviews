@@ -1,7 +1,14 @@
 @import 'font.css';
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
 }
 
 .roboto {
@@ -13,6 +20,10 @@ hr.rounded {
     width: 100%;
     border-top: 3px solid #ffbf00;
     border-radius: 5px;
+}
+
+.content {
+    flex: 1 0 auto;
 }
 
 .site-header {
@@ -151,6 +162,7 @@ hr.rounded {
     text-align: center;
     font-size: x-small;
     height: 5em;
+    flex-shrink: 0;
 }
 
 .review {
@@ -209,8 +221,9 @@ hr.rounded {
     text-align: center;
 }
 
-.details-header h4 {
-    font-size: large;
+.details-header p {
+    font-size: x-large;
+    font-weight: bold;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -345,6 +358,33 @@ hr.rounded {
     .movie-grid {
         grid-template-columns: 300px 300px;
     }
+
+    .review-title {
+        font-size: 2em;
+    }
+
+    .review-text {
+        font-size: x-large;
+        width: 70%;
+    }
+
+    .review-subtitle {
+        font-size: 1.1em;
+    }
+
+    .details-header hr {
+        width: 50%;
+    }
+
+    .poster img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -396,24 +436,18 @@ hr.rounded {
 
     .review-text {
         width: 60%;
-        font-size: x-large;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .poster img {
-        display: block;
         max-width: 50%;
-        height: auto;
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 0;
-        margin-bottom: 0;
+    }
+
+    .details-header {
+        font-size: large;
     }
 
     .details-header hr {
         width: 40%;
-        font-size: large;
     }
 
     .details-table {
@@ -428,6 +462,19 @@ hr.rounded {
 
     .movie-grid {
         grid-template-columns: 400px 400px 400px;
+    }
+
+    .review-text {
+        font-size: xx-large;
+    }
+
+    .details-header hr {
+        width: 40%;
+        font-size: x-large;
+    }
+
+    .details-table {
+        font-size: x-large;
     }
 }
 

@@ -17,21 +17,21 @@
         <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-       <nav id="sidebar" class="sidebar-hidden" role="navigation">
-            <header class="sidebar-header">
-                <p class="sidebar-title">TMR</p>
-                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
-            </header>
-            <hr class="rounded">
-            <section class="roboto">
-                <span><a href="../index.html">Home Page</a></span>
-                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
-                <span><a href="../pages/watched.html">Watched List</a></span>
-                <span><a href="../pages/about_me.html">About Me</a></span>
-                <span><a href="pages/review_list.html">Plain Review List</a></span>
-            </section>
-        </nav>
-        <main id="main" class="no-push">
+        <main class="content">
+           <nav id="sidebar" class="sidebar-hidden" role="navigation">
+                <header class="sidebar-header">
+                    <p class="sidebar-title">TMR</p>
+                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+                </header>
+                <hr class="rounded">
+                <section class="roboto">
+                    <span><a href="../index.html">Home Page</a></span>
+                    <span><a href="../pages/fav_films.html">Favorite Films</a></span>
+                    <span><a href="../pages/watched.html">Watched List</a></span>
+                    <span><a href="../pages/about_me.html">About Me</a></span>
+                    <span><a href="pages/review_list.html">Plain Review List</a></span>
+                </section>
+            </nav>
             <header class="site-header">
                 <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
                 <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
@@ -39,10 +39,10 @@
             </header>
             <hr class="rounded">
             <article class="review">
-    			<h1><cite>Indiana Jones and the Dial of Destiny</cite></h1>
-    			<p>July 8, 2023 - 6:00 PM - Dolby Cinema</p>
-                <p><i>An unworthy adventure.</i></p>
-                <q>Whatever I did, I apologize.</q>
+    			<h1 class="review-title"><cite>Indiana Jones and the Dial of Destiny</cite></h1>
+    			<p class="review-subtitle">July 8, 2023 - 6:00 PM - Dolby Cinema</p>
+                <p class="review-subtitle"><i>An unworthy adventure.</i></p>
+                <q class="review-subtitle">Whatever I did, I apologize.</q>
     			<section class="review-text">
     				<p>Indiana Jones was given the perfect runway … twice! 1989’s <cite>The Last Crusade</cite> had him riding into the sunset with his father and his best friends. 2008’s <cite>Kingdom of the Crystal Skull</cite> reunited him with his soulmate, Marion. For another sequel to take place, there better be a good reason. Otherwise, why reintroduce this character to millions when his story has already been completed?</p>
 
@@ -68,36 +68,36 @@
             <section class="details">
                 <header class="details-header">
                     <hr />
-                    <h4 >Key Details</h4>
+                    <p class="" >Key Details</p>
                     <hr />
                 </header>
                 <table class="details-table">
                     <tr>
-                        <td><strong>Directed By</strong></td>
+                        <td><b>Directed By</b></td>
                         <td>James Mangold</td>
                     </tr>
                     <tr>
-                        <td><strong>Written By</strong></td>
+                        <td><b>Written By</b></td>
                         <td>Jez Butterworth<br>John-Henry Butterworth<br>David Koepp<br>James Mangold</td>
                     </tr>
                     <tr>
-                        <td><strong>Release Date</strong></td>
+                        <td><b>Release Date</b></td>
                         <td>June 30, 2023</td>
                     </tr>
                     <tr>
-                        <td><strong>Budget</strong></td>
+                        <td><b>Budget</b></td>
                         <td>$250 - 300+ million</td>
                     </tr>
                     <tr>
-                        <td><strong>Box Office</strong></td>
+                        <td><b>Box Office</b></td>
                         <td>$200+ million</td>
                     </tr>
                     <tr>
-                        <td><strong>Production Company</strong></td>
+                        <td><b>Production Company</b></td>
                         <td>Walt Disney Pictures<br>Lucasfilm Ltd.</td>
                     </tr>
                     <tr>
-                        <td><strong>Distribution Company</strong></td>
+                        <td><b>Distribution Company</b></td>
                         <td>Walt Disney Studios Motion Pictures</td>
                     </tr>
                 </table>
@@ -107,11 +107,11 @@
                     src="../assets/posters/indiana_jones_5.jpeg" 
                     alt="Photo of Indiana Jones and the Dial of Destiny Poster" />
 			</section>
-    		<footer class="site-footer roboto">
-                Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-                All trademarks are the property of the respective trademark owners.<br>
-                &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-    	    </footer>
         </main>
+		<footer class="site-footer roboto">
+            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+            All trademarks are the property of the respective trademark owners.<br>
+            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+	    </footer>
 	</body>
 </html>
