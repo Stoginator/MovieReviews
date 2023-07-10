@@ -378,6 +378,12 @@ hr.rounded {
     }    
 
     .poster img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
         padding-bottom: 0;
         margin-bottom: 0;
     }
