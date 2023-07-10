@@ -39,6 +39,18 @@ hr.rounded {
     text-align: left;
 }
 
+@media only screen and (min-width: 500px) {
+    .sidebar-toggle {
+        width: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sidebar-toggle {
+        width: 90px;
+    }
+}
+
 .site-title {
     flex: 1;
     font-family: 'Roboto-Black', system-ui;
@@ -48,6 +60,18 @@ hr.rounded {
     justify-content: center;
     margin-top: 0.7em;
     margin-bottom: 0;
+}
+
+@media only screen and (min-width: 500px) {
+    .site-title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .site-title {
+        font-size: 36px;
+    }
 }
 
 .site-title a:link, .site-title a:visited, .site-title a:active {
@@ -64,17 +88,19 @@ hr.rounded {
     text-align: right;
 }
 
-/* Test styling
-.push {
-    margin-left: 0%;
-    transition: margin-left 1s;
+@media only screen and (min-width: 500px) {
+    .memoji {
+        height: 75px;
+        width: 60px;
+    }
 }
 
-.no-push {
-    margin-left: 0%;
-    transition: margin-left 1s;
+@media only screen and (min-width: 1200px) {
+    .memoji {
+        height: 85px;
+        width: 65px;
+    }
 }
-*/
 
 .sidebar {
     height: 100%;
@@ -89,6 +115,24 @@ hr.rounded {
     overflow-y: hidden;
     transition: width 0.4s;
     z-index: 3;
+}
+
+@media only screen and (min-width: 600px) {
+    .sidebar {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sidebar {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .sidebar {
+        width: 10%;
+    }
 }
 
 .sidebar-hidden {
@@ -165,9 +209,26 @@ hr.rounded {
     flex-shrink: 0;
 }
 
+@media only screen and (min-width: 1200px) {
+    .site-footer {
+        font-size: small;
+    }
+}
+
 .review {
     text-align: center;
     font-size: large;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .review-title {
+        font-size: 2em;
+    }
+
+    .review-subtitle {
+        font-size: 1.1em;
+    }
 }
 
 .section-quote {
@@ -202,6 +263,24 @@ hr.rounded {
     margin-right: auto;
 }
 
+@media only screen and (min-width: 800px) {
+    .review-text {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .review-text {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .review-text {
+        font-size: x-large;
+    }
+}
+
 .poster img {
     display: block;
     max-width: 100%;
@@ -212,10 +291,43 @@ hr.rounded {
     margin-right: auto;
 }
 
+@media only screen and (min-width: 800px) {
+    .poster img { 
+    /*
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-top: 1em;
+        margin-left: auto;
+        margin-right: auto; 
+    */
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .poster img {
+        max-width: 50%;
+    }
+}
+
 .details-header hr {
     width: 95%;
     border-top: 3px solid #ffbf00;
     border-radius: 5px;
+}
+
+@media only screen and (min-width: 800px) {
+    .details-header hr {
+        width: 50%;
+    }   
+}
+
+@media only screen and (min-width: 1200px) {
+    .details-header hr {
+        width: 40%;
+    }
 }
 
 .details {
@@ -223,11 +335,17 @@ hr.rounded {
 }
 
 .details-header p {
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    .details-header p {
+        font-size: x-large;
+    }
 }
 
 .details-table {
@@ -239,9 +357,18 @@ hr.rounded {
     border-spacing: 10px 0em;
 }
 
+@media only screen and (min-width: 500px) {
+    .details-table {
+        font-size: large;
+    }
+}
+
 .details-table td {
     vertical-align: top;
 }
+
+/*-----------------------*/
+/* Grid for Movie Lists */
 
 .main-box {
     position: relative;
@@ -255,6 +382,12 @@ hr.rounded {
     /* box-shadow: inset 1px 1px black; */
 }
 
+@media only screen and (min-width: 1200px) {
+    .main-box {
+        width: 400px;
+    }
+}
+
 .main-box img {
     max-width: 100%;
     width: 300px;
@@ -263,6 +396,13 @@ hr.rounded {
     border-radius: 1em;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .main-box img {
+        width: 400px;
+        height: 200px;
+    }
 }
 
 .main-box:after {
@@ -319,164 +459,23 @@ hr.rounded {
     align-items: center;
 }
 
-@media only screen and (min-width: 500px) {
-    .sidebar-toggle {
-        width: 60px;
-    }
-
-    .site-title {
-        font-size: 30px;
-    }
-
-    .memoji {
-        height: 75px;
-        width: 60px;
-    }
-
-    .details-table {
-        font-size: medium;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .sidebar {
-        width: 25%;
-    }
-/*
-    .push {
-        margin-left: 28%;
-        transition: margin-left 0.75s;
-    }
-
-    .no-push {
-        margin-left: 0%;
-        transition: margin-left 0.75s;
-    }
-*/
-}
-
 @media only screen and (min-width: 800px) {
     .movie-grid {
         grid-template-columns: 300px 300px;
     }
-
-    .review-title {
-        font-size: 2em;
-    }
-
-    .review-text {
-        font-size: x-large;
-        width: 70%;
-    }
-
-    .review-subtitle {
-        font-size: 1.1em;
-    }
-
-    .details-header hr {
-        width: 50%;
-    }    
-
-    .poster img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding-top: 1em;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
 }
 
 @media only screen and (min-width: 1200px) {
-    .main-box {
-        width: 400px;
-    }
-
-    .sidebar-toggle {
-        width: 90px;
-    }
-
-    .site-title {
-        font-size: 36px;
-    }
-
-    .memoji {
-        height: 85px;
-        width: 65px;
-    }
-
-    .sidebar {
-        width: 15%;
-    }
-
     .movie-grid {
         grid-template-columns: 400px 400px;
         grid-auto-columns: 400px;
         grid-auto-rows: 200px;
     }
-
-    .main-box img {
-        width: 400px;
-        height: 200px;
-    }
-/*
-    .push {
-        margin-left: 18%;
-        transition: margin-left 0.75s;
-    }
-
-    .no-push {
-        margin-left: 0%;
-        transition: margin-left 0.75s;
-    }
-*/
-    .site-footer {
-        font-size: small;
-    }
-
-    .review-text {
-        width: 70%;
-    }
-
-    .poster img {
-        max-width: 50%;
-    }
-
-    .details-header {
-        font-size: large;
-    }
-
-    .details-header hr {
-        width: 40%;
-    }
-
-    .details-table {
-        font-size: large;
-    }
 }
 
 @media only screen and (min-width: 1600px) {
-    .sidebar {
-        width: 10%;
-    }
-
     .movie-grid {
         grid-template-columns: 400px 400px 400px;
-    }
-
-    .review-text {
-        font-size: xx-large;
-    }
-
-    .details-header hr {
-        width: 40%;
-        font-size: x-large;
-    }
-
-    .details-table {
-        font-size: x-large;
     }
 }
 
@@ -492,7 +491,10 @@ hr.rounded {
     }
 }
 
-/* Dark mode in future
+/* -------------------- */
+/* Dark Mode  (Not yet enabled) */
+
+/*
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
