@@ -228,8 +228,8 @@ hr.rounded {
     margin: 0;
     width: 100%;
     /* padding-bottom: 1em; */
-    margin-bottom: 1.5em;
-    /* background: black; (test border of container) */
+    /* margin-bottom: 1.5em; */
+    background: black; /* (test border of container) */
     background: transparent;
     border-radius: 1em;
     /* box-shadow: inset 1px 1px black; */
@@ -328,7 +328,7 @@ hr.rounded {
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
     .sidebar-toggle {
         width: 90px;
     }
@@ -344,6 +344,23 @@ hr.rounded {
 
     .sidebar {
         width: 15%;
+    }
+
+    .container {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 400px 400px;
+        grid-auto-columns: 400px;
+        grid-auto-rows: 200px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-box img {
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
     }
 /*
     .push {
@@ -386,6 +403,24 @@ hr.rounded {
         font-size: large;
     }
 }
+
+@media only screen and (min-width: 1600px) {
+    .sidebar {
+        width: 10%;
+    }
+
+    .container {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 400px 400px 400px;
+        grid-auto-columns: 400px;
+        grid-auto-rows: 200px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* Dark mode in future
 @media (prefers-color-scheme: dark) {
     body {
