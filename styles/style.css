@@ -1,5 +1,7 @@
 @import 'font.css';
 
+/*-------------------------------- Common Settings ---------------------------------*/
+
 html {
     height: 100%;
 }
@@ -15,40 +17,15 @@ body {
     font-family: 'Roboto', system-ui;
 }
 
-/* Rounded border */
-hr.rounded {
-    width: 100%;
-    border-top: 3px solid #ffbf00;
-    border-radius: 5px;
-}
-
 .content {
     flex: 1 0 auto;
 }
+/*------------------------------------------------------------------------------------*/
 
+/*----------------------------- Site Header Flex Layout ------------------------------*/
 .site-header {
     display: flex;
     flex-direction: row;
-}
-
-.sidebar-toggle {
-    flex: 0.01;
-    width: 30px;
-    padding-right: 0;
-    margin-right: 0;
-    text-align: left;
-}
-
-@media only screen and (min-width: 500px) {
-    .sidebar-toggle {
-        width: 60px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .sidebar-toggle {
-        width: 90px;
-    }
 }
 
 .site-title {
@@ -99,6 +76,35 @@ hr.rounded {
     .memoji {
         height: 85px;
         width: 65px;
+    }
+}
+
+/* Rounded border */
+hr.rounded {
+    width: 100%;
+    border-top: 3px solid #ffbf00;
+    border-radius: 5px;
+}
+/*------------------------------------------------------------------------------------*/
+
+/*---------------------- Sidebar and hidden sidebar variant --------------------------*/
+.sidebar-toggle {
+    flex: 0.01;
+    width: 30px;
+    padding-right: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+@media only screen and (min-width: 500px) {
+    .sidebar-toggle {
+        width: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sidebar-toggle {
+        width: 90px;
     }
 }
 
@@ -194,13 +200,9 @@ hr.rounded {
     text-align: right;
     margin-right: 5%;
 }
+/*------------------------------------------------------------------------------------*/
 
-.year {
-    font-family: "Roboto-Medium", system-ui;
-    text-align: center;
-    font-size: 28px;
-}
-
+/*----------------------------------- Site Footer ------------------------------------*/
 .site-footer {
     padding-top: 10px;
     text-align: center;
@@ -214,161 +216,14 @@ hr.rounded {
         font-size: small;
     }
 }
+/*------------------------------------------------------------------------------------*/
 
-.review {
+/*-------------------------------- Grid for Movie Lists ------------------------------*/
+.year {
+    font-family: "Roboto-Medium", system-ui;
     text-align: center;
-    font-size: large;
+    font-size: 28px;
 }
-
-
-@media only screen and (min-width: 800px) {
-    .review-title {
-        font-size: 2em;
-    }
-
-    .review-subtitle {
-        font-size: 1.1em;
-    }
-}
-
-.section-quote {
-    width: 90%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Roboto-Black", system-ui;
-}
-
-.spoilers {
-    margin: 1em 0em 0.25em 0em;
-}
-
-.spoilers hr {
-    width: 50%;
-    border-top: 3px solid #ffbf00;
-    border-radius: 5px;
-}
-
-.spoilers p {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.review-text {
-    font-size: large;
-    width: 95%;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media only screen and (min-width: 800px) {
-    .review-text {
-        width: 70%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .review-text {
-        width: 70%;
-    }
-}
-
-@media only screen and (min-width: 1600px) {
-    .review-text {
-        font-size: x-large;
-    }
-}
-
-.poster img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    padding-top: 1em;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media only screen and (min-width: 800px) {
-    .poster img { 
-    /*
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding-top: 1em;
-        margin-left: auto;
-        margin-right: auto; 
-    */
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .poster img {
-        max-width: 50%;
-    }
-}
-
-.details-header hr {
-    width: 95%;
-    border-top: 3px solid #ffbf00;
-    border-radius: 5px;
-}
-
-@media only screen and (min-width: 800px) {
-    .details-header hr {
-        width: 50%;
-    }   
-}
-
-@media only screen and (min-width: 1200px) {
-    .details-header hr {
-        width: 40%;
-    }
-}
-
-.details {
-    text-align: center;
-}
-
-.details-header p {
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-@media only screen and (min-width: 1200px) {
-    .details-header p {
-        font-size: x-large;
-    }
-}
-
-.details-table {
-    font-size: medium;
-    text-align: left;
-    width: auto;
-    margin-right: auto;
-    margin-left: auto;
-    border-spacing: 10px 0em;
-}
-
-@media only screen and (min-width: 500px) {
-    .details-table {
-        font-size: large;
-    }
-}
-
-.details-table td {
-    vertical-align: top;
-}
-
-/*-----------------------*/
-/* Grid for Movie Lists */
 
 .main-box {
     position: relative;
@@ -490,10 +345,167 @@ hr.rounded {
         grid-template-columns: 400px 400px 400px 400px 400px;
     }
 }
+/*------------------------------------------------------------------------------------*/
 
-/* -------------------- */
+/*-------------------------- Review text styling and layout --------------------------*/
+.review {
+    text-align: center;
+    font-size: large;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .review-title {
+        font-size: 2em;
+    }
+
+    .review-subtitle {
+        font-size: 1.1em;
+    }
+}
+
+.section-quote {
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto-Black", system-ui;
+}
+
+.spoilers {
+    margin: 1em 0em 0.25em 0em;
+}
+
+.spoilers hr {
+    width: 50%;
+    border-top: 3px solid #ffbf00;
+    border-radius: 5px;
+}
+
+.spoilers p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.review-text {
+    font-size: large;
+    width: 95%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    .review-text {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .review-text {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .review-text {
+        font-size: x-large;
+    }
+}
+/*------------------------------------------------------------------------------------*/
+
+/*------------------------- Key Details table after a review -------------------------*/
+.details {
+    text-align: center;
+}
+
+.details-header hr {
+    width: 95%;
+    border-top: 3px solid #ffbf00;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 800px) {
+    .details-header hr {
+        width: 50%;
+    }   
+}
+
+@media only screen and (min-width: 1200px) {
+    .details-header hr {
+        width: 40%;
+    }
+}
+
+.details-header p {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    .details-header p {
+        font-size: x-large;
+    }
+}
+
+.details-table {
+    font-size: medium;
+    text-align: left;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 10px 0em;
+}
+
+@media only screen and (min-width: 500px) {
+    .details-table {
+        font-size: large;
+    }
+}
+
+.details-table td {
+    vertical-align: top;
+}
+/*------------------------------------------------------------------------------------*/
+
+/*--------------------- Poster displayed after Key Details table ---------------------*/
+.poster img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    .poster img { 
+    /*
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-top: 1em;
+        margin-left: auto;
+        margin-right: auto; 
+    */
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .poster img {
+        max-width: 50%;
+    }
+}
+/*------------------------------------------------------------------------------------*/
+
 /* Dark Mode  (Not yet enabled) */
-
 /*
 @media (prefers-color-scheme: dark) {
     body {
