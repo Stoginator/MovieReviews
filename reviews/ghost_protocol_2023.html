@@ -17,21 +17,21 @@
         <script type="text/javascript" src="../js/script.js"></script>
 	</head>
     <body>
-       <nav id="sidebar" class="sidebar-hidden" role="navigation">
-            <header class="sidebar-header">
-                <p class="sidebar-title">TMR</p>
-                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
-            </header>
-            <hr class="rounded">
-            <section class="roboto">
-                <span><a href="../index.html">Home Page</a></span>
-                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
-                <span><a href="../pages/watched.html">Watched List</a></span>
-                <span><a href="../pages/about_me.html">About Me</a></span>
-                <span><a href="pages/review_list.html">Plain Review List</a></span>
-            </section>
-        </nav>
-        <main id="main" class="no-push">
+    	<div class="content">
+	        <nav id="sidebar" class="sidebar-hidden" role="navigation">
+	            <header class="sidebar-header">
+	                <p class="sidebar-title">TMR</p>
+	                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+	            </header>
+	            <hr class="rounded">
+	            <section class="roboto">
+	                <span><a href="../index.html">Home Page</a></span>
+	                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
+	                <span><a href="../pages/watched.html">Watched List</a></span>
+	                <span><a href="../pages/about_me.html">About Me</a></span>
+	                <span><a href="pages/review_list.html">Plain Review List</a></span>
+	            </section>
+	        </nav>
             <header class="site-header">
                 <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
                 <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
@@ -39,10 +39,10 @@
             </header>
             <hr class="rounded">
             <article class="review">
-				<h1><i>Mission: Impossible - Ghost Protocol</i></h1>
-				<p>June 22, 2023 - 10:15 PM - Home Theater (4K UHD)</p>
-				<p><i>Running down the Burj Khalifa in IMAX</i></p>
-				<q>Light the fuse.</q>
+				<h1 class="review-title"><i>Mission: Impossible - Ghost Protocol</i></h1>
+				<p class="review-subtitle"><time datetime="2023-6-22 22:15">June 22, 2023 - 10:15 PM</time> - Home Theater (4K UHD)</p>
+				<p class="review-subtitle"><i>Running down the Burj Khalifa in IMAX</i></p>
+				<q class="review-subtitle">Light the fuse.</q>
 				<section class="review-text">
 					<p>Looking back on the fourth iteration of Tom Cruise’s <i>Mission: Impossible</i> series, it features the bones of many big-budget, modern action films: a fast-paced, twisting-and-turning plot, a steady dose of humor, and multiple leading stars. This formula is so replicable that many other films copy and paste it to varying degrees of success. What is the difference between <i>Mission: Impossible - Ghost Protocol</i> and the rest? I would argue it is a solid script, the concise vision of Brad Bird, and, of course, Tom Cruise.</p>
 
@@ -56,50 +56,50 @@
             <section class="details">
                 <header class="details-header">
                     <hr />
-                    <h4 >Key Details</h4>
+                    <p>Key Details</p>
                     <hr />
                 </header>
 				<table class="details-table">
 					<tr>
-						<td><strong>Directed By</strong></td>
+						<td><b>Directed By</b></td>
 						<td>Brad Bird</td>
 					</tr>
 					<tr>
-						<td><strong>Written By</strong></td>
+						<td><b>Written By</b></td>
 						<td>Josh Appelbaum<br>André Nemec<br>Christopher McQuarrie (uncredited)</td>
 					</tr>
 					<tr>
-						<td><strong>Release Date</strong></td>
+						<td><b>Release Date</b></td>
 						<td>December 16, 2011</td>
 					</tr>
 					<tr>
-						<td><strong>Budget</strong></td>
+						<td><b>Budget</b></td>
 						<td>$145 million</td>
 					</tr>
 					<tr>
-						<td><strong>Box Office</strong></td>
+						<td><b>Box Office</b></td>
 						<td>$694 million</td>
 					</tr>
 					<tr>
-						<td><strong>Production Company</strong></td>
+						<td><b>Production Company</b></td>
 						<td>Paramount Pictures<br>Skydance Productions<br>TC Productions<br>Bad Robot Productions</td>
 					</tr>
 					<tr>
-						<td><strong>Distribution Company</strong></td>
+						<td><b>Distribution Company</b></td>
 						<td>Paramount Pictures</td>
 					</tr>
 				</table>
-			</div>
+			</section>
 			<section class="poster">
 				<img 
 					src="../assets/posters/ghost_protocol_imax.jpeg" 
 					alt="Mission: Impossible - Ghost Protocol poster" />
 			</section>
-			<footer class="site-footer roboto">
-	            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-	            All trademarks are the property of the respective trademark owners.<br>
-	            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-		    </footer>
-		</main>
+		</div>
+		<footer class="site-footer roboto">
+            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+            All trademarks are the property of the respective trademark owners.<br>
+            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+	    </footer>
 	</body>
 </html>

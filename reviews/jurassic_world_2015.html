@@ -17,31 +17,31 @@
         <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-       <nav id="sidebar" class="sidebar-hidden" role="navigation">
-            <header class="sidebar-header">
-                <p class="sidebar-title">TMR</p>
-                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
-            </header>
-            <hr class="rounded">
-            <section class="roboto">
-                <span><a href="../index.html">Home Page</a></span>
-                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
-                <span><a href="../pages/watched.html">Watched List</a></span>
-                <span><a href="../pages/about_me.html">About Me</a></span>
-                <span><a href="pages/review_list.html">Plain Review List</a></span>
-            </section>
-        </nav>
-        <main id="main" class="no-push">
+        <div class="content">
+            <nav id="sidebar" class="sidebar-hidden" role="navigation">
+                <header class="sidebar-header">
+                    <p class="sidebar-title">TMR</p>
+                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+                </header>
+                <hr class="rounded">
+                <section class="roboto">
+                    <span><a href="../index.html">Home Page</a></span>
+                    <span><a href="../pages/fav_films.html">Favorite Films</a></span>
+                    <span><a href="../pages/watched.html">Watched List</a></span>
+                    <span><a href="../pages/about_me.html">About Me</a></span>
+                    <span><a href="pages/review_list.html">Plain Review List</a></span>
+                </section>
+            </nav>
             <header class="site-header">
                 <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
                 <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
-                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png"></img></a>
+                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png" alt="Animated picture of website owner"></img></a>
             </header>
             <hr class="rounded">
             <article class="review">
-    			<h1><i>Jurassic World</i></h1>
-    			<p>June 19, 2015 - 7:00 PM - Digital IMAX</p>
-                <q>Run!</q>
+    			<h1 class="review-title"><i>Jurassic World</i></h1>
+    			<p class="review-subtitle"><time datetime="2015-6-19 19:00">June 19, 2015 - 7:00 PM</time> - Digital IMAX</p>
+                <q class="review-subtitle">Run!</q>
     			<section class="review-text">
     				<p>Yesterday, I saw <i>Jurassic World</i> in IMAX 3D at Cinemark Pittsburgh Mills. It was a blast and defied my expectations of it being a similar <i>Jurassic Park 3</i> let down. The director, Colin Trevorow, has made a movie that has action sequenced so similar to Spielberg's <i>Jurassic Park</i>, many probably made the mistake that the movie was actually directed by Spielberg who served as an executive producer on the film.</p>
 
@@ -61,36 +61,36 @@
             <section class="details">
                 <header class="details-header">
                     <hr />
-                    <h4 >Key Details</h4>
+                    <p >Key Details</p>
                     <hr />
                 </header>
                 <table class="details-table">
                     <tr>
-                        <td><strong>Directed By</strong></td>
+                        <td><b>Directed By</b></td>
                         <td>Colin Trevorrow</td>
                     </tr>
                     <tr>
-                        <td><strong>Written By</strong></td>
+                        <td><b>Written By</b></td>
                         <td>Rick Jaffa<br>Amanda Silver<br>Derek Connolly<br>Colin Trevorrow</td>
                     </tr>
                     <tr>
-                        <td><strong>Release Date</strong></td>
+                        <td><b>Release Date</b></td>
                         <td>June 12, 2015</td>
                     </tr>
                     <tr>
-                        <td><strong>Budget</strong></td>
+                        <td><b>Budget</b></td>
                         <td>$150 - 215 million</td>
                     </tr>
                     <tr>
-                        <td><strong>Box Office</strong></td>
+                        <td><b>Box Office</b></td>
                         <td>$1.67 billion</td>
                     </tr>
                     <tr>
-                        <td><strong>Production Company</strong></td>
+                        <td><b>Production Company</b></td>
                         <td>Amblin Entertainment<br>Legendary Pictures<br>The Kennedy/Marshall Company</td>
                     </tr>
                     <tr>
-                        <td><strong>Distribution Company</strong></td>
+                        <td><b>Distribution Company</b></td>
                         <td>Universal Pictures</td>
                     </tr>
                 </table>
@@ -98,11 +98,11 @@
 			<section class="poster">
 				<img src="../assets/images/jw.jpg" alt="Photo of Jurassic World Poster" />
 			</section>
-    		<footer class="site-footer roboto">
-                Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-                All trademarks are the property of the respective trademark owners.<br>
-                &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-    	    </footer>
-        </main>
+        </div>
+		<footer class="site-footer roboto">
+            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+            All trademarks are the property of the respective trademark owners.<br>
+            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+	    </footer>
 	</body>
 </html>

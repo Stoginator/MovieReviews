@@ -17,35 +17,34 @@
         <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-       <nav id="sidebar" class="sidebar-hidden" role="navigation">
-            <header class="sidebar-header">
-                <p class="sidebar-title">TMR</p>
-                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
-            </header>
-            <hr class="rounded">
-            <section class="roboto">
-                <span><a href="../index.html">Home Page</a></span>
-                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
-                <span><a href="../pages/watched.html">Watched List</a></span>
-                <span><a href="../pages/about_me.html">About Me</a></span>
-                <span><a href="pages/review_list.html">Plain Review List</a></span>
-            </section>
-        </nav>
-        <main id="main" class="no-push">
+        <div class="content">
+            <nav id="sidebar" class="sidebar-hidden" role="navigation">
+                <header class="sidebar-header">
+                    <p class="sidebar-title">TMR</p>
+                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+                </header>
+                <hr class="rounded">
+                <section class="roboto">
+                    <span><a href="../index.html">Home Page</a></span>
+                    <span><a href="../pages/fav_films.html">Favorite Films</a></span>
+                    <span><a href="../pages/watched.html">Watched List</a></span>
+                    <span><a href="../pages/about_me.html">About Me</a></span>
+                    <span><a href="pages/review_list.html">Plain Review List</a></span>
+                </section>
+            </nav>
             <header class="site-header">
                 <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
                 <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
-                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png"></img></a>
+                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png" alt="Animated picture of website owner"></img></a>
             </header>
             <hr class="rounded">
             <article class="review">
-                <h1><cite>Cool Hand Luke</cite></h1>
-                <p>June 14, 2023 - 10:48 PM - Home Theater (4K UHD)</p>
-                <p><i>What does it take to break a man's soul?</i></p>
-                <q>What we have here is failure to communicate.</q>
+                <h1 class="review-title"><cite>Cool Hand Luke</cite></h1>
+                <p class="review-subtitle"><time datetime="2023-6-14 22:48">June 14, 2023 - 10:48 PM</time> - Home Theater (4K UHD)</p>
+                <p class="review-subtitle"><i>What does it take to break a man's soul?</i></p>
+                <q class="review-subtitle">What we have here is failure to communicate.</q>
                 <div class="review-text">
-                    <p>Here’s the plot: a drunk, WWII veteran is caught destroying municipal property and imprisoned for two years in the countryside (what looks like a FedEx location from 2000's <cite>Cast Away</cite>). Rallying the fellow jailed men around him, he conjures a series of adrenaline-pumping stunts that help those same men dream big in their harsh reality - until those dreams come crashing down … again, again, and again. In the end, who wins: dreams or reality?
-                    </p>
+                    <p>Here’s the plot: a drunk, WWII veteran is caught destroying municipal property and imprisoned for two years in the countryside (what looks like a FedEx location from 2000's <cite>Cast Away</cite>). Rallying the fellow jailed men around him, he conjures a series of adrenaline-pumping stunts that help those same men dream big in their harsh reality - until those dreams come crashing down … again, again, and again. In the end, who wins: dreams or reality?</p>
                     <p>But what is the film about? Cool Hand Luke, the nickname of Paul Newman’s character, together with his environment pose some serious questions to the audience. Are some born to be leaders and others born to be followers?  Why do some men act on their desires, while others are content just to watch? The central question is: What does it take to break a man’s soul? Paul Newman, director Stuart Rosenberg, and screenwriters Donn Pierce and Frank R. Pierson chose to explore these questions together. Cinematographer Conrad L. Hall captures their answers as only he can. The various shots of one guard’s mirror-like sunglasses are unforgettable. The frame of those sunglasses is eventually broken just as the authority that tried to contain Luke fails.</p>
                     <p> The predicament of Luke’s fellow prisoners reminds me of a conversation from 1994's <cite>The Shawshank Redemption</cite>. Most of those men, especially Luke’s greatest supporter, Drag, are <i>institutionalized</i> - so adjusted to the type of life behind bars that living on the outside has lost its purpose. Luke is their champion. Someone with a vision of life so great that they live through him. Fitting into his top-dog mentality, Luke enjoys his role in their excitement until the authorities - the prison guards - beat into him who’s in charge. My words understate it: the guards ruthlessly try to break him. In his moment of greatest weakness, Luke resents his inmates’ vicariousness. In response, they resent that he’s not the hero they wanted him to be. Greater luminaries than me can comment on the Christ-like images of Luke scattered throughout the film. I can only say that those images present Luke as a martyr for the other inmates.</p>
                     <p>The rebelliousness of Luke surely connected with and was a response to an America going through the tumultuous 1960s. The Civil Rights Movement, hippies, and Vietnam. Similar to many men and women of his time, Luke’s actions boil down to a simple reading: “Authority? What authority.” In the year after the film’s original release, it is hard not to see historical parallels. Martin Luther King Jr. and Robert F. Kennedy - men carrying great visions of social restructuring - were assassinated by those who had no peaceful response to their eloquence. Luke has some eloquence, but not in spades; he was murdered by an authority who could not tolerate an unyielding mind. The threads of history are up for debate, but the film is clear that, in the great battle of authority versus man, authority took away everything they could from the man. But the man held on to his soul … and the man won.</p>
@@ -54,36 +53,36 @@
             <section class="details">
                 <header class="details-header">
                     <hr />
-                    <h4 >Key Details</h4>
+                    <p>Key Details</p>
                     <hr />
                 </header>
                 <table class="details-table">
                     <tr>
-                        <td><strong>Directed By</strong></td>
+                        <td><b>Directed By</b></td>
                         <td>Stuart Rosenberg</td>
                     </tr>
                     <tr>
-                        <td><strong>Written By</strong></td>
+                        <td><b>Written By</b></td>
                         <td>Donn Pierce<br>Frank R. Pierson</td>
                     </tr>
                     <tr>
-                        <td><strong>Release Date</strong></td>
+                        <td><b>Release Date</b></td>
                         <td>October 31, 1967</td>
                     </tr>
                     <tr>
-                        <td><strong>Budget</strong></td>
+                        <td><b>Budget</b></td>
                         <td>$3 million</td>
                     </tr>
                     <tr>
-                        <td><strong>Box Office</strong></td>
+                        <td><b>Box Office</b></td>
                         <td>$16 million</td>
                     </tr>
                     <tr>
-                        <td><strong>Production Company</strong></td>
+                        <td><b>Production Company</b></td>
                         <td>Jalem Productions</td>
                     </tr>
                     <tr>
-                        <td><strong>Distribution Company</strong></td>
+                        <td><b>Distribution Company</b></td>
                         <td>Warner Brothers - Seven Arts</td>
                     </tr>
                 </table>
@@ -93,11 +92,12 @@
                     src="../assets/posters/cool_hand_luke.jpg" 
                     alt="Cool Hand Luke poster" />
             </section>
-            <footer class="site-footer roboto">
-                Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-                All trademarks are the property of the respective trademark owners.<br>
-                &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-            </footer>
         </div>
+        <footer class="site-footer roboto">
+            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+            All trademarks are the property of the respective trademark owners.<br>
+            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+        </footer>
+        
     </body>
 </html>
