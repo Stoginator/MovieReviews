@@ -17,21 +17,21 @@
         <script type="text/javascript" src="../js/script.js"></script>
 	</head>
     <body>
-       <nav id="sidebar" class="sidebar-hidden" role="navigation">
-            <header class="sidebar-header">
-                <p class="sidebar-title">TMR</p>
-                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
-            </header>
-            <hr class="rounded">
-            <section class="roboto">
-                <span><a href="../index.html">Home Page</a></span>
-                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
-                <span><a href="../pages/watched.html">Watched List</a></span>
-                <span><a href="../pages/about_me.html">About Me</a></span>
-                <span><a href="pages/review_list.html">Plain Review List</a></span>
-            </section>
-        </nav>
-        <main id="main" class="no-push">
+        <div class="content">
+            <nav id="sidebar" class="sidebar-hidden" role="navigation">
+                <header class="sidebar-header">
+                    <p class="sidebar-title">TMR</p>
+                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+                </header>
+                <hr class="rounded">
+                <section class="roboto">
+                    <span><a href="../index.html">Home Page</a></span>
+                    <span><a href="../pages/fav_films.html">Favorite Films</a></span>
+                    <span><a href="../pages/watched.html">Watched List</a></span>
+                    <span><a href="../pages/about_me.html">About Me</a></span>
+                    <span><a href="pages/review_list.html">Plain Review List</a></span>
+                </section>
+            </nav>
             <header class="site-header">
                 <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
                 <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
@@ -39,13 +39,13 @@
             </header>
             <hr class="rounded">
             <article class="review">
-                <h1><cite>Thelma and Louise</cite></h1>
-                <p>June 26, 2023 - 11:32 PM - Home Theater (4K UHD)</p>
-                <p><i>They've got Wild Turkey and a vengeance.</i></p>
-                <q>Good morning everybody, this is a robbery.</q>
+                <h1 class="review-title"><cite>Thelma and Louise</cite></h1>
+                <p class="review-subtitle"><time datetime="2023-6-23 23:32">June 26, 2023 - 11:32 PM</time> - Home Theater (4K UHD)</p>
+                <p class="review-subtitle"><i>They've got Wild Turkey and a vengeance.</i></p>
+                <q class="review-subtitle">Good morning everybody, this is a robbery.</q>
                 <div class="spoilers">
                     <hr />
-                    <p><strong>Spoilers Ahead</strong></p>
+                    <p><b>Spoilers Ahead</b></p>
                     <hr />
                 </div>
                 <section class="review-text">
@@ -60,9 +60,9 @@
                     
                     <p>Director Ridley Scott has an interest in telling stories with strong, leading women like Ripley in 1979’s <cite>Alien</cite> and Marguerite de Carrouges in 2021’s <cite>The Last Duel</cite>. Scott depicts moments of great tragedy without overplaying the emotions through directorial manipulation. There is a great sensitivity on display to let actions and character speak for themselves. Much of that, I assume, comes from Callie Khouri’s wonderful script layered with all the elements of a great popcorn event: lots of comedy, a steady dose of drama, and a take-home message.</p>
                     
-                    <p>It is difficult not to notice the particularly damning portrait of men in <cite>Thelma and Louise</cite>. They all see women as possessions, interested in the hunt and capture, but never the preservation. Thelma’s husband (Christopher McDonald) is a harsh, inattentive, likely unfaithful brat (but a hilariously dumb one too!). Louise’s husband, an Elvis clone (Michael Madson) born three decades too late, seems incapable of truly listening to her. A highway hitchhiker (Brad Pitt) is a womanizer and a thief. The only redeemable male character is the state police detective played by Harvey Keitel. The key difference between him and the others is that he knows Thelma and Louise are not controllable. Staying true to his word, he does not try. He seeks to reason with them because he knows what they are running away from. Unlike the others in their life, he is the only one who will learn a thing or two from their decisions.</p>
+                    <p>It is difficult not to notice the particularly damning portrait of men in <cite>Thelma and Louise</cite>. They all see women as possessions, interested in the hunt and capture, but never the preservation. Thelma’s husband (Christopher McDonald) is a harsh, inattentive, likely unfaithful brat (but a hilariously dumb one too!). Louise’s boyfriend, an Elvis clone (Michael Madson) born three decades too late, seems incapable of truly listening to her. A highway hitchhiker (Brad Pitt) is a womanizer and a thief. The only redeemable male character is the state police detective played by Harvey Keitel. The key difference between him and the others is that he knows Thelma and Louise are not controllable. Staying true to his word, he does not try. He seeks to reason with them because he knows what they are running away from. Unlike the others in their life, he is the only one who will learn a thing or two from their decisions.</p>
 
-                    <p>Like most, I was dumbstruck by the ending. Thelma and Louise would never stop running away, but does it make sense for them to go out without a fight? I wondered why… and then it hit me. When Thelma gives Louise the go-ahead to drive off the cliff, what she really is telling Louise is “I'd rather be out there than here. Plus, I’ve had enough fun, Louise. Hit it.” The final choice of Thelma and Louise is the ultimate expression of the world’s lack of control on these women. It might seem weird for such a scene to make me smile, but it does. Thelma and Louise set themselves free.</p>
+                    <p>Like most, I was dumbstruck by the ending. Thelma and Louise would never stop running away, but does it make sense for them to go out without a fight? I wondered why… and then it hit me. When Thelma gives Louise the go-ahead to drive off the cliff, what she really is telling Louise is “I'd rather be out there than here. I’ve had enough fun, Louise. Hit it.” The final choice of Thelma and Louise is the ultimate expression of the world’s lack of control on these women. It might seem weird for such a scene to make me smile, but it does. Thelma and Louise set themselves free.</p>
                 </section>
             </article>
             <section class="details">
@@ -73,31 +73,31 @@
                 </header>
                 <table class="details-table">
                     <tr>
-                        <td><strong>Directed By</strong></td>
+                        <td><b>Directed By</b></td>
                         <td>Ridley Scott</td>
                     </tr>
                     <tr>
-                        <td><strong>Written By</strong></td>
+                        <td><b>Written By</b></td>
                         <td>Callie Khouri</td>
                     </tr>
                     <tr>
-                        <td><strong>Release Date</strong></td>
+                        <td><b>Release Date</b></td>
                         <td>May 24, 1991</td>
                     </tr>
                     <tr>
-                        <td><strong>Budget</strong></td>
+                        <td><b>Budget</b></td>
                         <td>$16 million</td>
                     </tr>
                     <tr>
-                        <td><strong>Box Office</strong></td>
+                        <td><b>Box Office</b></td>
                         <td>$45 million</td>
                     </tr>
                     <tr>
-                        <td><strong>Production Company</strong></td>
+                        <td><b>Production Company</b></td>
                         <td>Pathé Entertainment<br>Percy Main Productions<br>Star Partners II Ltd.</td>
                     </tr>
                     <tr>
-                        <td><strong>Distribution Company</strong></td>
+                        <td><b>Distribution Company</b></td>
                         <td>Metro-Goldwyn-Mayer</td>
                     </tr>
                 </table>
@@ -107,11 +107,11 @@
                     src="../assets/posters/thelma_and_louise.jpg" 
                     alt="Thelma and Louise poster" />
             </section>
-            <footer class="site-footer roboto">
-                Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-                All trademarks are the property of the respective trademark owners.<br>
-                &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-            </footer>
-        </main>
+        </div>
+        <footer class="site-footer roboto">
+            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+            All trademarks are the property of the respective trademark owners.<br>
+            &copy <time datetime="2023">2023</time> <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+        </footer>
     </body>
 </html>

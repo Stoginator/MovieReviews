@@ -87,7 +87,7 @@ hr.rounded {
 }
 /*------------------------------------------------------------------------------------*/
 
-/*---------------------- Sidebar and hidden sidebar variant --------------------------*/
+/*---------------------- Sidebar and Hidden Sidebar Variant --------------------------*/
 .sidebar-toggle {
     flex: 0.01;
     width: 30px;
@@ -231,7 +231,7 @@ hr.rounded {
     width: 300px;
     /* padding-bottom: 1em; */
     /* margin-bottom: 1.5em; */
-    background: black; /* (test border of container) */
+    /* background: black; (test border of container) */
     background: transparent;
     border-radius: 1em;
     /* box-shadow: inset 1px 1px black; */
@@ -347,7 +347,7 @@ hr.rounded {
 }
 /*------------------------------------------------------------------------------------*/
 
-/*-------------------------- Review text styling and layout --------------------------*/
+/*-------------------------- Review Text Styling and Layout --------------------------*/
 .review {
     text-align: center;
     font-size: large;
@@ -415,7 +415,7 @@ hr.rounded {
 }
 /*------------------------------------------------------------------------------------*/
 
-/*------------------------- Key Details table after a review -------------------------*/
+/*------------------------- Key Details Table (After Review) -------------------------*/
 .details {
     text-align: center;
 }
@@ -472,7 +472,7 @@ hr.rounded {
 }
 /*------------------------------------------------------------------------------------*/
 
-/*--------------------- Poster displayed after Key Details table ---------------------*/
+/*--------------------- Poster (After Key Details Table) ---------------------*/
 .poster img {
     display: block;
     max-width: 100%;
