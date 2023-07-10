@@ -140,6 +140,12 @@ hr.rounded {
     margin-right: 5%;
 }
 
+.year {
+    font-family: "Roboto-Medium", system-ui;
+    text-align: center;
+    font-size: 28px;
+}
+
 .site-footer {
     padding-top: 10px;
     text-align: center;
@@ -226,7 +232,7 @@ hr.rounded {
 .main-box {
     position: relative;
     margin: 0;
-    width: 100%;
+    width: 300px;
     /* padding-bottom: 1em; */
     /* margin-bottom: 1.5em; */
     background: black; /* (test border of container) */
@@ -237,7 +243,9 @@ hr.rounded {
 
 .main-box img {
     max-width: 100%;
-    height: auto;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -277,13 +285,24 @@ hr.rounded {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 25%;
+    width: 30%;
     color: white;
     z-index: 2; 
     text-align: right;
     padding-top: 1em;
     padding-bottom: 2em;
     margin-right: 1em;
+}
+
+.movie-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 300px;
+    grid-auto-columns: 300px;
+    grid-auto-rows: 150px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (min-width: 500px) {
@@ -323,12 +342,16 @@ hr.rounded {
 }
 
 @media only screen and (min-width: 800px) {
-    .main-box {
-        width: 400px;
+    .movie-grid {
+        grid-template-columns: 300px 300px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
+    .main-box {
+        width: 400px;
+    }
+
     .sidebar-toggle {
         width: 90px;
     }
@@ -346,21 +369,15 @@ hr.rounded {
         width: 15%;
     }
 
-    .container {
-        display: grid;
-        grid-gap: 30px;
+    .movie-grid {
         grid-template-columns: 400px 400px;
         grid-auto-columns: 400px;
         grid-auto-rows: 200px;
-        grid-auto-flow: row;
-        justify-content: center;
-        align-items: center;
     }
 
     .main-box img {
         width: 400px;
         height: 200px;
-        object-fit: cover;
     }
 /*
     .push {
@@ -409,15 +426,20 @@ hr.rounded {
         width: 10%;
     }
 
-    .container {
-        display: grid;
-        grid-gap: 30px;
+    .movie-grid {
         grid-template-columns: 400px 400px 400px;
-        grid-auto-columns: 400px;
-        grid-auto-rows: 200px;
-        grid-auto-flow: row;
-        justify-content: center;
-        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 2150px) {
+    .movie-grid {
+        grid-template-columns: 400px 400px 400px 400px;
+    }
+}
+
+@media only screen and (min-width: 2700px) {
+    .movie-grid {
+        grid-template-columns: 400px 400px 400px 400px 400px;
     }
 }
 
