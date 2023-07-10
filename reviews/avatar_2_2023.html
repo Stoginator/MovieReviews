@@ -17,21 +17,21 @@
         <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-       <nav id="sidebar" class="sidebar-hidden" role="navigation">
-            <header class="sidebar-header">
-                <p class="sidebar-title">TMR</p>
-                <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
-            </header>
-            <hr class="rounded">
-            <section class="roboto">
-                <span><a href="../index.html">Home Page</a></span>
-                <span><a href="../pages/fav_films.html">Favorite Films</a></span>
-                <span><a href="../pages/watched.html">Watched List</a></span>
-                <span><a href="../pages/about_me.html">About Me</a></span>
-                <span><a href="pages/review_list.html">Plain Review List</a></span>
-            </section>
-        </nav>
-        <main id="main" class="no-push">
+        <main class="content">
+            <nav id="sidebar" class="sidebar-hidden" role="navigation">
+                <header class="sidebar-header">
+                    <p class="sidebar-title">TMR</p>
+                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+                </header>
+                <hr class="rounded">
+                <section class="roboto">
+                    <span><a href="../index.html">Home Page</a></span>
+                    <span><a href="../pages/fav_films.html">Favorite Films</a></span>
+                    <span><a href="../pages/watched.html">Watched List</a></span>
+                    <span><a href="../pages/about_me.html">About Me</a></span>
+                    <span><a href="pages/review_list.html">Plain Review List</a></span>
+                </section>
+            </nav>
             <header class="site-header">
                 <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
                 <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
@@ -39,9 +39,9 @@
             </header>
             <hr class="rounded">
             <article class="review">
-                <h1><cite>Avatar: The Way of Water</cite></h1>
-                <p>February 3, 2023 - 12:00 PM - Single Laser IMAX</p>
-                <q>Sullys stick together.</q>
+                <h1 class="review-title"><cite>Avatar: The Way of Water</cite></h1>
+                <p class="review-subtitle">February 3, 2023 - 12:00 PM - Single Laser IMAX</p>
+                <q class="review-subtitle">Sullys stick together.</q>
                 <section class="review-text">
                     <p>James Cameron’s <cite>Avatar: The Way of Water</cite> is <cite>Little Miss Sunshine</cite> meets <cite>Avatar</cite>. At the core of this story is a conflicted family, each pulling in different directions but always bound to come back because of their collective belief: “Sullys stick together.”
                     </p>
@@ -70,7 +70,7 @@
             <section class="details">
                 <header class="details-header">
                     <hr />
-                    <h4 >Key Details</h4>
+                    <p>Key Details</p>
                     <hr />
                 </header>
                 <table class="details-table">
@@ -109,11 +109,11 @@
                     src="../assets/posters/way_of_water.jpg" 
                     alt="Avatar: The Way of Water poster" />
             </section>
-            <footer class="site-footer roboto">
-                Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
-                All trademarks are the property of the respective trademark owners.<br>
-                &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
-            </footer>
-        </div>
+        </main>
+        <footer class="site-footer roboto">
+            Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
+            All trademarks are the property of the respective trademark owners.<br>
+            &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+        </footer>
     </body>
 </html>
