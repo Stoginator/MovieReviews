@@ -309,7 +309,7 @@ hr.rounded {
     .sidebar {
         width: 25%;
     }
-
+/*
     .push {
         margin-left: 28%;
         transition: margin-left 0.75s;
@@ -319,6 +319,7 @@ hr.rounded {
         margin-left: 0%;
         transition: margin-left 0.75s;
     }
+*/
 }
 
 @media only screen and (min-width: 800px) {
@@ -344,7 +345,7 @@ hr.rounded {
     .sidebar {
         width: 15%;
     }
-
+/*
     .push {
         margin-left: 18%;
         transition: margin-left 0.75s;
@@ -354,7 +355,7 @@ hr.rounded {
         margin-left: 0%;
         transition: margin-left 0.75s;
     }
-
+*/
     .site-footer {
         font-size: small;
     }
