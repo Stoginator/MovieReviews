@@ -203,6 +203,7 @@ hr.rounded {
 }
 
 .poster img {
+    display: block;
     max-width: 100%;
     height: auto;
     padding-top: 1em;
@@ -374,14 +375,9 @@ hr.rounded {
 
     .details-header hr {
         width: 50%;
-    }
+    }    
 
     .poster img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin-right: auto;
-        margin-left: auto;
         padding-bottom: 0;
         margin-bottom: 0;
     }
