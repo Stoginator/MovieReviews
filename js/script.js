@@ -1,3 +1,4 @@
+// Sidebar logic
 function controlNav() {
   if (document.getElementById("sidebar").className == "sidebar-hidden") {
     document.getElementById("sidebar").className = "sidebar";
@@ -6,6 +7,7 @@ function controlNav() {
   }
 }
 
+// Toggle dark and light modes
 function themeToggle() {
   const btn = document.getElementById("toggle-btn");
   if (document.body.className == "light-theme") {
@@ -19,6 +21,7 @@ function themeToggle() {
   }
 }
 
+// Store user preference for light and dark mode across visits in same browser
 window.addEventListener("load", (event) => {
   const btn = document.getElementById("toggle-btn");
   const currentTheme = localStorage.getItem("theme");
