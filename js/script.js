@@ -6,7 +6,7 @@ function controlNav() {
   }
 }
 
-function toggle() {
+function themeToggle() {
   const btn = document.getElementById("toggle-btn");
   if (document.body.className == "light-theme") {
     document.body.className = "";
@@ -19,11 +19,15 @@ function toggle() {
   }
 }
 
+
 window.addEventListener("load", (event) => {
+  const btn = document.getElementById("toggle-btn");
   const currentTheme = localStorage.getItem("theme");
   if (currentTheme == "light") {
     document.body.className = "light-theme";
+    btn.innerText = "Toggle Dark Mode";
   } else if (currentTheme == "dark") {
     document.body.className = "";
+    btn.innerText = "Toggle Light Mode";
   }
 });
