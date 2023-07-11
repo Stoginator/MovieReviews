@@ -2,63 +2,61 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Tanish's Movie Reviews</title>
+        <title>Favorite Films | Tanish's Movie Reviews</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles/style.css" />
-        <link rel="shortcut icon" href="favicon.ico" />
-        <!----------Favicon generated with https://realfavicongenerator.net ---------->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link rel="shortcut icon" href="../favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png" />
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#2b5797" />
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FD7F22" />
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#DA5D00" />
-        
+
         <!---------- Embed Meta Tags ---------->
-        <meta name="title" content="Tanish's Movie Reviews" />
-        <meta name="description" content="Sharing reviews for the movies you have to see! Browse, read, and enjoy a curated list of opinions on film." />
+        <meta name="title" content="Favorite Films | Tanish's Movie Reviews" />
+        <meta name="description" content="A list of all of my favorite movies." />
         <meta name="author" content="Tanish Rastogi">
         <meta property="og:type" content="Movie Review" />
-        <meta property="og:url" content="https://stoginator.github.io/MovieReviews/" />
-
-        <meta property="og:title" content="Tanish's Movie Reviews" />
-        <meta property="og:description" content="Sharing reviews for the movies you have to see!" />
+        <meta property="og:url" content="https://stoginator.github.io/MovieReviews/pages/fav_films.html" />
+        
+        <meta property="og:title" content="About Me | Tanish's Movie Reviews" />
+        <meta property="og:description" content="A list of all of my favorite movies." />
         <meta property="og:image" content="https://stoginator.github.io/MovieReviews/assets/images/android-chrome-512x512.png" />
         
-        <meta property="twitter:url" content="https://stoginator.github.io/MovieReviews/" />
-        <meta property="twitter:title" content="Tanish's Movie Reviews" />
-        <meta property="twitter:description" content="Sharing reviews for the movies you have to see!" />
-        <meta property="twitter:image" content="https://stoginator.github.io/MovieReviews/assets/images/android-chrome-512x512.png" />
-        <meta property="twitter:card" content="summary_large_image" /> 
+        <meta property="twitter:title" content="About Me | Tanish's Movie Reviews" />
+        <meta property="twitter:description" content="A list of all of my favorite movies." />
+        <meta property="twitter:url" content="https://stoginator.github.io/MovieReviews/pages/fav_films.html" />
+        <meta property="twitter:image" content="https://stoginator.github.io/MovieReviews/assets/images/android-chrome-512x512.png" /> 
+        <meta property="twitter:card" content="summary_large_image" />
         <!------------------------------>
 
-        <link rel="manifest" href="site.webmanifest">
-        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="manifest" href="../site.webmanifest">
+        <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
         <main class="content">
             <nav id="sidebar" class="sidebar-hidden" role="navigation">
                 <div class="sidebar-header">
                     <p class="sidebar-title">TMR</p>
-                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="assets/icons/close.svg" onclick="controlNav()"></input>
+                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
                 </div>
                 <hr class="rounded">
                 <div class="roboto">
-                    <span><a href="index.html">Home Page</a></span>
-                    <span><a href="pages/fav_films.html">Favorite Films</a></span>
-                    <span><a href="pages/watched.html">Watched List</a></span>
-                    <span><a href="pages/about_me.html">About Me</a></span>
-                    <span><a href="pages/review_list.html">Plain Review List</a></span>
+                    <span><a href="../index.html">Home Page</a></span>
+                    <span><a href="fav_films.html">Favorite Films</a></span>
+                    <span><a href="watched.html">Watched List</a></span>
+                    <span><a href="about_me.html">About Me</a></span>
+                    <span><a href="review_list.html">Plain Review List</a></span>
                 </div>
             </nav>
             <header class="site-header">
-                <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="assets/icons/menu.svg" onclick="controlNav()"></input>
-                <p class="site-title"><a href="index.html">Tanish's Movie Reviews</a></p>
-                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="assets/icons/memoji.png" alt="Animated picture of website owner"></img></a>
+                <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
+                <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
+                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png"></img></a>
             </header>
             <hr class="rounded">
-            <p class="year">2023</p>
             <section class="roboto movie-grid">
                 <a href="reviews/indiana_jones_5_2023.html">
                     <figure class="main-box">
@@ -161,10 +159,10 @@
                 </a>
             </section>
         </main>
-        <footer class="site-footer roboto">
+		<footer class="site-footer roboto">
             Roboto designed by Christian Robertson; <a>licensed through Google Fonts.</a><br>
             All trademarks are the property of the respective trademark owners.<br>
             &copy 2023 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
         </footer>
-    </body>
+	</body>
 </html>
