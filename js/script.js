@@ -19,7 +19,6 @@ function themeToggle() {
   }
 }
 
-
 window.addEventListener("load", (event) => {
   const btn = document.getElementById("toggle-btn");
   const currentTheme = localStorage.getItem("theme");
