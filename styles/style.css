@@ -167,8 +167,8 @@ hr.rounded {
 }
 
 .sidebar a:hover, .sidebar-hidden a:hover {
-    background-color: lightgray;
-    opacity: 10%;
+    color: black;
+    opacity: 90%;
 }
 
 .sidebar span, .sidebar-hidden span {
