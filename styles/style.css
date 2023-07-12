@@ -371,7 +371,6 @@ hr.rounded {
     font-size: large;
 }
 
-
 @media only screen and (min-width: 800px) {
     .review-title {
         font-size: 2em;
@@ -430,6 +429,39 @@ hr.rounded {
     .review-text {
         font-size: x-large;
     }
+}
+
+.inline-photo {
+    display: block;
+}
+
+.inline-photo img {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-photo figcaption {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+    .inline-photo img {
+        max-width: 70%;
+    }
+}
+/*------------------------------------------------------------------------------------*/
+
+/*------------------------- Works Cited (Can be after review) ------------------------*/
+.mla-reference {
+    padding-left: 5%;
+    text-indent: -5%;
+}
+
+.works-cited-title {
+    text-align: center;
 }
 /*------------------------------------------------------------------------------------*/
 
