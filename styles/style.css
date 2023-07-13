@@ -609,28 +609,59 @@ hr.rounded {
 
 /*------------------------------------------------------------------------------------*/
 
-/*------------------------------------- Dark Mode ------------------------------------*/
-@media (prefers-color-scheme: dark) {
-    body {
+/*------------------------------------- Light Mode -----------------------------------*/
+
+@media(prefers-color-scheme: light) {
+    body.light-theme a {
+        color: #0000EE;
+    }
+
+    body.light-theme .site-header input {
+        filter: invert(0%) sepia(0%) saturate(5%) hue-rotate(181deg) brightness(86%) contrast(100%);
+    }
+
+    body.light-theme hr.rounded {
+        width: 100%;
+        border: 3px solid #ffbf00;
+        border-radius: 5px;
+    }
+
+    body.light-theme .theme-toggle {
+        font-family: "Roboto-Medium", system-ui;
+        padding: 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+        transition-duration: 0.4s;
+    }
+
+    body.light-theme .theme-toggle:hover {
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+    }
+
+    body.dark-theme {
         background-color: #121212;
         color: #EEEEEE;
     }
 
-    a {
+    body.dark-theme a {
         color: lightblue;
     }
     
-    .site-header input {
+    body.dark-theme .site-header input {
         /* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); neon-green */
         filter: invert(89%) sepia(6%) saturate(1526%) hue-rotate(160deg) brightness(98%) contrast(85%); /* lightblue */
     }
 
     /* Rounded border */
-    hr.rounded {
+    body.dark-theme hr.rounded {
         border: 3px solid #DA5D00;
     }
 
-    .theme-toggle {
+    body.dark-theme .theme-toggle {
         font-family: "Roboto-Medium", system-ui;
         padding: 10px;
         border: 2px solid black;
@@ -640,7 +671,46 @@ hr.rounded {
         transition-duration: 0.4s;
     }
 
-    .theme-toggle:hover {
+    body.dark-theme .theme-toggle:hover {
+        border: 2px solid white;
+        background-color: black;
+        color: white;
+    }
+}
+/*------------------------------------------------------------------------------------*/
+
+/*------------------------------------- Dark Mode ------------------------------------*/
+@media (prefers-color-scheme: dark) {
+    body.dark-theme {
+        background-color: #121212;
+        color: #EEEEEE;
+    }
+
+    body.dark-theme a {
+        color: lightblue;
+    }
+    
+    body.dark-theme .site-header input {
+        /* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); neon-green */
+        filter: invert(89%) sepia(6%) saturate(1526%) hue-rotate(160deg) brightness(98%) contrast(85%); /* lightblue */
+    }
+
+    /* Rounded border */
+    body.dark-theme hr.rounded {
+        border: 3px solid #DA5D00;
+    }
+
+    body.dark-theme .theme-toggle {
+        font-family: "Roboto-Medium", system-ui;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        transition-duration: 0.4s;
+    }
+
+    body.dark-theme .theme-toggle:hover {
         border: 2px solid white;
         background-color: black;
         color: white;
