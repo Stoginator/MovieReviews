@@ -433,13 +433,14 @@ hr.rounded {
 
 .inline-photo {
     display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .inline-photo img {
     height: auto;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
 }
 
 .inline-photo figcaption {
@@ -449,7 +450,7 @@ hr.rounded {
 
 @media only screen and (min-width: 800px) {
     .inline-photo img {
-        max-width: 70%;
+        width: 70%;
     }
 }
 /*------------------------------------------------------------------------------------*/
@@ -643,6 +644,10 @@ hr.rounded {
         color: black;
     }
 
+    .inline-photo figcaption {
+        border: 2px solid black;
+    }
+
     html[data-theme="dark"] body {
         background-color: #121212;
         color: #EEEEEE;
@@ -676,6 +681,10 @@ hr.rounded {
         border: 2px solid white;
         background-color: black;
         color: white;
+    }
+
+    html[data-theme="dark"] .inline-photo figcaption {
+        border: 2px solid white;
     }
 }
 /*------------------------------------------------------------------------------------*/
@@ -716,6 +725,10 @@ hr.rounded {
         color: white;
     }
 
+    .inline-photo figcaption {
+        border: 2px solid white;
+    }
+
     html[data-theme="light"] body {
         height: 100%;
         background-color: #f7f7f7;
@@ -752,6 +765,10 @@ hr.rounded {
         border: 2px solid black;
         background-color: white;
         color: black;
+    }
+
+    html[data-theme="light"] .inline-photo figcaption {
+        border: 2px solid black;
     }
 }
 /*------------------------------------------------------------------------------------*/
