@@ -395,7 +395,7 @@ hr.rounded {
 
 .spoilers hr {
     width: 50%;
-    border-top: 3px solid #ffbf00;
+    border: 3px solid #ffbf00;
     border-radius: 5px;
 }
 
@@ -473,7 +473,7 @@ hr.rounded {
 
 .details-header hr {
     width: 95%;
-    border-top: 3px solid #ffbf00;
+    border: 3px solid #ffbf00;
     border-radius: 5px;
 }
 
@@ -656,6 +656,16 @@ hr.rounded {
     html[data-theme="dark"] a {
         color: lightblue;
     }
+
+    html[data-theme="dark"] .sidebar a:link, 
+    html[data-theme="dark"] .sidebar a:visited, 
+    html[data-theme="dark"] .sidebar a:active, 
+    html[data-theme="dark"] .sidebar-hidden a:link, 
+    html[data-theme="dark"] .sidebar-hidden a:visited, 
+    html[data-theme="dark"] .sidebar-hidden a:active 
+    {
+        color: #0000EE;
+    }
     
     html[data-theme="dark"] .site-header input {
         /* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); neon-green */
@@ -683,8 +693,16 @@ hr.rounded {
         color: white;
     }
 
+    html[data-theme="dark"] .spoilers hr {
+        border: 3px solid #DA5D00;
+    }
+
     html[data-theme="dark"] .inline-photo figcaption {
         border: 2px solid white;
+    }
+
+    html[data-theme="dark"] .details-header hr {
+        border: 3px solid #DA5D00;
     }
 }
 /*------------------------------------------------------------------------------------*/
@@ -698,6 +716,16 @@ hr.rounded {
 
     a {
         color: lightblue;
+    }
+
+    .sidebar a:link, 
+    .sidebar a:visited, 
+    .sidebar a:active, 
+    .sidebar-hidden a:link, 
+    .sidebar-hidden a:visited, 
+    .sidebar-hidden a:active 
+    {
+        color: #0000EE;
     }
     
     .site-header input {
@@ -725,8 +753,16 @@ hr.rounded {
         color: white;
     }
 
+    .spoilers hr {
+        border: 3px solid #DA5D00;
+    }
+
     .inline-photo figcaption {
         border: 2px solid white;
+    }
+
+    .details-header hr {
+        border: 3px solid #DA5D00;
     }
 
     html[data-theme="light"] body {
@@ -766,9 +802,17 @@ hr.rounded {
         background-color: white;
         color: black;
     }
+    
+    html[data-theme="light"] .spoilers hr {
+        border: 3px solid #ffbf00;
+    }
 
     html[data-theme="light"] .inline-photo figcaption {
         border: 2px solid black;
+    }
+
+    html[data-theme="light"] .details-header hr {
+        border: 3px solid #ffbf00;
     }
 }
 /*------------------------------------------------------------------------------------*/
