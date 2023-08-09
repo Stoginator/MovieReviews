@@ -7,7 +7,7 @@ Visit [my site](https://www.tanishsmoviereviews.com) to read them! Hosted proudl
 
 ## Achievements
 1. **Responsive Design**: Resize the page and have fun. My site is styled for mobile phones and desktops.
-2. **Idiomatic HTML**: Each page features HTML written as intended by the WWC.
+2. **Idiomatic HTML**: Each page features HTML written as intended by the World Wide Web Consortium (W3C).
 3. **Latest CSS**: I used the latest techniques like Grid and Flex! 
 4. **Accessibility**: My site was developed with screen readers in mind. Each page received a high accessibility score of 95+ from PageSpeed Insights. See an [example](https://pagespeed.web.dev/analysis/https-www-tanishsmoviereviews-com-reviews-oppenheimer_2023-html/y9stim2uzz?form_factor=mobile).
 5. **Light / Dark Mode Toggle**: implemented without a flash of unstyled content (FOUC), remembers preference from previous visits, matches OS-default otherwise
