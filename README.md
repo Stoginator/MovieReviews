@@ -3,7 +3,7 @@ A simple website using pure JS, CSS, and HTML to showcase my movie reviews.
 
 As of August 2023, there are about 50 reviews on the site. I expect to add at least 1 review a month.
 
-Visit [my site](www.tanishsmoviereviews.com) to read them! Hosted proudly on GitHub Pages.
+Visit [my site](https://www.tanishsmoviereviews.com) to read them! Hosted proudly on GitHub Pages.
 
 ## Achievements
 1. **Responsive Design**: Resize the page and have fun. My site is styled for mobile phones and desktops.
