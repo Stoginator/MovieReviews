@@ -129,6 +129,12 @@ hr.rounded {
     }
 }
 
+@media only screen and (min-width: 900px) {
+    .sidebar {
+        width: 20%;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .sidebar {
         width: 15%;
@@ -255,6 +261,18 @@ hr.rounded {
     /* box-shadow: inset 1px 1px black; */
 }
 
+@media only screen and (min-width: 414px) {
+    .main-box {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 725px) {
+    .main-box {
+        width: 300px;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .main-box {
         width: 400px;
@@ -269,6 +287,20 @@ hr.rounded {
     border-radius: 1em;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (min-width: 414px) {
+    .main-box img {
+        width: 350px;
+        height: 175px;
+    }
+}
+
+@media only screen and (min-width: 725px) {
+    .main-box img {
+        width: 300px;
+        height: 150px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -323,7 +355,7 @@ hr.rounded {
 
 .movie-grid {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 15px;
     grid-template-columns: 300px;
     grid-auto-columns: 300px;
     grid-auto-rows: 150px;
@@ -332,9 +364,17 @@ hr.rounded {
     align-items: center;
 }
 
+@media only screen and (min-width: 414px) {
+    .movie-grid {
+        grid-template-columns: 350px;
+        grid-gap: 40px;
+    }
+}
+
 @media only screen and (min-width: 725px) {
     .movie-grid {
         grid-template-columns: 300px 300px;
+        grid-gap: 30px;
     }
 }
 
