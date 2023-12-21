@@ -405,6 +405,41 @@ hr.rounded {
 }
 /*------------------------------------------------------------------------------------*/
 
+/*--------------------------- Poster Grid For Watched List ---------------------------*/
+.poster-grid {
+    display: grid;
+    grid-gap: 50px 15px;
+    grid-template-columns: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-rows: 140px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-box {
+    position: relative;
+    margin: 0;
+    width: 100px;
+    /* padding-bottom: 1em; */
+    /* margin-bottom: 1.5em; */
+    /* background: black; (test border of container) */
+    background: transparent;
+    border-radius: 1em;
+    /* box-shadow: inset 1px 1px black; */
+}
+
+.poster-box img {
+    max-width: 100%;
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------------------------------------------------------*/
+
 /*-------------------------- Review Text Styling and Layout --------------------------*/
 .review {
     text-align: center;
