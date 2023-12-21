@@ -408,13 +408,19 @@ hr.rounded {
 /*--------------------------- Poster Grid For Watched List ---------------------------*/
 .poster-grid {
     display: grid;
-    grid-gap: 50px 15px;
-    grid-template-columns: 100px 100px 100px;
+    grid-gap: 25px 15px;
+    grid-template-columns: 100px 100px;
     grid-auto-columns: 100px;
-    grid-auto-rows: 140px;
+    grid-auto-rows: auto;
     grid-auto-flow: row;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+
+@media only screen and (min-width: 414px) {
+    .poster-grid {
+        grid-template-columns: 100px 100px 100px;
+    }
 }
 
 .poster-box {
@@ -432,10 +438,14 @@ hr.rounded {
 .poster-box img {
     max-width: 100%;
     width: 100px;
-    height: 150px;
+    height: 160px;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
+}
+
+.poster-box figcaption {
+    text-align: center;
 }
 
 /*------------------------------------------------------------------------------------*/
