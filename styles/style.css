@@ -417,9 +417,27 @@ hr.rounded {
     align-items: start;
 }
 
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 375px) {
     .poster-grid {
         grid-template-columns: 100px 100px 100px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .poster-grid {
+        grid-template-columns: 100px 100px 100px 100px;
+    }
+}
+
+@media only screen and (min-width: 725px) {
+    .poster-grid {
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .poster-grid {
+        grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
     }
 }
 
@@ -438,7 +456,8 @@ hr.rounded {
 .poster-box img {
     max-width: 100%;
     width: 100px;
-    height: 160px;
+    height: 142px;
+    border-radius: 0.1em;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
