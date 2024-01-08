@@ -1,32 +1,33 @@
 tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
-76600,tt1630029,Avatar: The Way of Water,2022,James Cameron,2023-02-03,True,IMAX,https://www.tanishsmoviereviews.com/reviews/avatar_2_2023.html
-964980,tt16419074,Air,2023,Ben Affleck,2023-05-02,False,Standard,
-502356,tt6718170,The Super Mario Bros Movie,2023,"Aaron Horvath, Michael Jelenic",2023-05-02,False,Dolby Cinema,
-493529,tt2906216,Dungeons & Dragons: Honor Among Thieves ,2023,"Jonathan Goldstein, John Francis Daley",2023-05-16,False,Standard,
-385687,tt5433140,Fast X,2023,Louis Leterrier,2023-05-23,False,Cinemark XD,
-569094,tt9362722,Spider-Man: Across the Spiderverse,2023,"Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",2023-06-07,False,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/across_the_spiderverse_2023.html
-569094,tt9362722,Spider-Man: Across the Spiderverse,2023,"Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",2023-06-13,True,Standard,https://www.tanishsmoviereviews.com/reviews/across_the_spiderverse_2023.html
-666277,tt13238346,Past Lives,2023,Celine Song,2023-07-11,False,Standard,https://www.tanishsmoviereviews.com/reviews/past_lives_2023.html
-569094,tt9362722,Spider-Man: Across the Spiderverse,2023,"Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",2023-07-11,True,Cinemark XD,https://www.tanishsmoviereviews.com/reviews/across_the_spiderverse_2023.html
-335977,tt1462764,Indiana Jones and the Dial of Destiny,2023,James Mangold,2023-07-08,False,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/indiana_jones_5_2023.html
-575264,tt9603212,Mission: Impossible - Dead Reckoning Part One,2023,Christopher McQuarrie,2023-07-16,False,IMAX,https://www.tanishsmoviereviews.com/reviews/mi7_2023.html
-872585,tt15398776,Oppenheimer,2023,Christopher Nolan,2023-07-27,False,IMAX,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
-346698,tt1517268,Barbie,2023,Greta Gerwig,2023-09-12,False,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/barbie_2023.html
-872585,tt15398776,Oppenheimer,2023,Christopher Nolan,2023-09-19,True,IMAX 70mm,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
-670292,tt11858890,The Creator,2023,Gareth Edwards,2023-10-06,False,IMAX,https://www.tanishsmoviereviews.com/reviews/the_creator_2023.html
-466420,tt5537002,Killers of the Flower Moon,2023,Martin Scorsese,2023-10-24,False,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/killers_flower_moon_2023.html
-857,tt0120815,Saving Private Ryan,1998,Steven Spielberg,2023-11-20,True,Standard,https://www.tanishsmoviereviews.com/reviews/saving_private_ryan_2023.html
-185,tt0066921,A Clockwork Orange,1971,Stanley Kubrick,2023-11-30,False,35mm,
-2252,tt0765443,Eastern Promises,2007,David Cronenberg,2023-12-06,False,Standard,
-813106,tt9071180,Burning,2018,Lee Chang-dong,2023-12-07,False,Standard,
-940721,tt23289160,Godzilla Minus One,2023,Takashi Yamazaki,2023-12-05,False,IMAX,https://www.tanishsmoviereviews.com/reviews/godzilla_minus_one_2023.html
-872585,tt15398776,Oppenheimer,2023,Christopher Nolan,2023-12-12,True,70mm,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
-937278,tt7405458,A Man Called Otto,2022,Marc Forster,2023-12-19,False,Standard,
-13673,tt0388419,Christmas With The Kranks,2004,Joe Roth,2023-12-19,True,Standard,
-2609,tt0093748,"Planes, Trains, and Automobiles",1987,John Hughes,2023-12-20,True,Standard,
-640,tt0264464,Catch Me If You Can,2002,Steven Spielberg,2023-12-24,True,Standard,https://www.tanishsmoviereviews.com/reviews/catch_me_if_you_can_2017.html
-490132,tt6966692,Green Book,2018,Peter Farrelly,2023-12-26,True,Standard,
-800158,tt1136617,The Killer,2023,David Fincher,2023-12-27,False,Standard,
-726209,tt12747748,Leave The World Behind,2023,Sam Esmail,2023-12-28,False,Standard,
-5503,tt0106977,The Fugitive,1993,Andrew Davis,2023-12-29,True,Standard,
-960876,tt15428134,Dunki,2023,Rajkumar Hirani,2023-12-31,False,Standard,
+76600,tt1630029,Avatar: The Way of Water,2022,James Cameron,2023-02-03,TRUE,IMAX,https://www.tanishsmoviereviews.com/reviews/avatar_2_2023.html
+964980,tt16419074,Air,2023,Ben Affleck,2023-05-02,FALSE,Standard,
+502356,tt6718170,The Super Mario Bros Movie,2023,"Aaron Horvath, Michael Jelenic",2023-05-02,FALSE,Dolby Cinema,
+493529,tt2906216,Dungeons & Dragons: Honor Among Thieves,2023,"Jonathan Goldstein, John Francis Daley",2023-05-16,FALSE,Standard,
+385687,tt5433140,Fast X,2023,Louis Leterrier,2023-05-23,FALSE,Cinemark XD,
+569094,tt9362722,Spider-Man: Across the Spiderverse,2023,"Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",2023-06-07,FALSE,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/across_the_spiderverse_2023.html
+569094,tt9362722,Spider-Man: Across the Spiderverse,2023,"Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",2023-06-13,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/across_the_spiderverse_2023.html
+666277,tt13238346,Past Lives,2023,Celine Song,2023-07-11,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/past_lives_2023.html
+569094,tt9362722,Spider-Man: Across the Spiderverse,2023,"Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",2023-07-11,TRUE,Cinemark XD,https://www.tanishsmoviereviews.com/reviews/across_the_spiderverse_2023.html
+335977,tt1462764,Indiana Jones and the Dial of Destiny,2023,James Mangold,2023-07-08,FALSE,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/indiana_jones_5_2023.html
+575264,tt9603212,Mission: Impossible - Dead Reckoning Part One,2023,Christopher McQuarrie,2023-07-16,FALSE,IMAX,https://www.tanishsmoviereviews.com/reviews/mi7_2023.html
+872585,tt15398776,Oppenheimer,2023,Christopher Nolan,2023-07-27,FALSE,IMAX,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
+346698,tt1517268,Barbie,2023,Greta Gerwig,2023-08-12,FALSE,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/barbie_2023.html
+872585,tt15398776,Oppenheimer,2023,Christopher Nolan,2023-08-19,TRUE,IMAX 70mm,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
+426,tt0052357,Vertigo,1958,Alfred Hitchcock,2023-09-16,TRUE,35mm,
+670292,tt11858890,The Creator,2023,Gareth Edwards,2023-10-06,FALSE,IMAX,https://www.tanishsmoviereviews.com/reviews/the_creator_2023.html
+466420,tt5537002,Killers of the Flower Moon,2023,Martin Scorsese,2023-10-24,FALSE,Dolby Cinema,https://www.tanishsmoviereviews.com/reviews/killers_flower_moon_2023.html
+857,tt0120815,Saving Private Ryan,1998,Steven Spielberg,2023-11-20,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/saving_private_ryan_2023.html
+185,tt0066921,A Clockwork Orange,1971,Stanley Kubrick,2023-11-30,FALSE,35mm,
+2252,tt0765443,Eastern Promises,2007,David Cronenberg,2023-12-06,FALSE,Standard,
+813106,tt9071180,Burning,2018,Lee Chang-dong,2023-12-07,FALSE,Standard,
+940721,tt23289160,Godzilla Minus One,2023,Takashi Yamazaki,2023-12-05,FALSE,IMAX,https://www.tanishsmoviereviews.com/reviews/godzilla_minus_one_2023.html
+872585,tt15398776,Oppenheimer,2023,Christopher Nolan,2023-12-12,TRUE,70mm,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
+937278,tt7405458,A Man Called Otto,2022,Marc Forster,2023-12-19,FALSE,Standard,
+13673,tt0388419,Christmas With The Kranks,2004,Joe Roth,2023-12-19,TRUE,Standard,
+2609,tt0093748,"Planes, Trains, and Automobiles",1987,John Hughes,2023-12-20,TRUE,Standard,
+640,tt0264464,Catch Me If You Can,2002,Steven Spielberg,2023-12-24,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/catch_me_if_you_can_2017.html
+490132,tt6966692,Green Book,2018,Peter Farrelly,2023-12-26,TRUE,Standard,
+800158,tt1136617,The Killer,2023,David Fincher,2023-12-27,FALSE,Standard,
+726209,tt12747748,Leave The World Behind,2023,Sam Esmail,2023-12-28,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/leave_the_world_behind_2023.html
+5503,tt0106977,The Fugitive,1993,Andrew Davis,2023-12-29,TRUE,Standard,
+960876,tt15428134,Dunki,2023,Rajkumar Hirani,2023-12-31,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/dunki_2023.html
