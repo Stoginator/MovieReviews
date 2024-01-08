@@ -368,7 +368,7 @@ hr.rounded {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 400px) {
     .main-box-top {
         font-size: x-large;
     }
