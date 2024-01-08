@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>2023 Watched List | Tanish's Movie Reviews</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link rel="shortcut icon" href="../favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png" />
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#2b5797" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FD7F22" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#DA5D00" />
+
+        <!---------- Embed Meta Tags ---------->
+        <meta name="title" content="Watched List | Tanish's Movie Reviews" />
+        <meta name="description" content="A list of all films I have seen, definitively starting from 2024." />
+        <meta name="author" content="Tanish Rastogi">
+        <meta property="og:type" content="Movie Review" />
+        <meta property="og:url" content="https://stoginator.github.io/MovieReviews/pages/watched.html" />
+        
+        <meta property="og:title" content="Watched List | Tanish's Movie Reviews" />
+        <meta property="og:description" content="A list of all films I have seen, definitively starting from 2024." />
+        <meta property="og:image" content="https://stoginator.github.io/MovieReviews/assets/images/android-chrome-512x512.png" />
+        
+        <meta property="twitter:title" content="Watched List | Tanish's Movie Reviews" />
+        <meta property="twitter:description" content="A list of all films I have seen, definitively starting from 2024." />
+        <meta property="twitter:url" content="https://stoginator.github.io/MovieReviews/pages/watched.html" />
+        <meta property="twitter:image" content="https://stoginator.github.io/MovieReviews/assets/images/android-chrome-512x512.png" /> 
+        <meta property="twitter:card" content="summary_large_image" />
+        <!------------------------------>
+
+        <link rel="manifest" href="../site.webmanifest">
+        <script type="text/javascript" src="../js/script.js"></script>
+    </head>
+    <body class="">
+        <main class="content">
+            <nav id="sidebar" class="sidebar-hidden" role="navigation">
+                <div class="sidebar-header">
+                    <p class="sidebar-title">TMR</p>
+                    <input type="image" class="sidebar-exit" title="Exit Site Navigation" aria-label="Exit Site Navigation" aria-controls="sidebar" src="../assets/icons/close.svg" onclick="controlNav()"></input>
+                </div>
+                <div class="roboto">
+                    <span><a href="../index.html">Home Page</a></span>
+                    <span><a href="fav_films.html">Favorite Films</a></span>
+                    <span><a href="watched.html">Watched List</a></span>
+                    <span><a href="about_me.html">About Me</a></span>
+                    <span><a href="review_list.html">Plain Review List</a></span>
+                    <span><button id="toggle-btn" class="theme-toggle" onclick="themeToggle()">Toggle Dark Mode</button></span>
+                </div>
+            </nav>
+            <header class="site-header">
+                <input type="image" class="sidebar-toggle" title="Toggle Site Navigation" aria-label="Toggle Site Navigation" aria-controls="sidebar" src="../assets/icons/menu.svg" onclick="controlNav()"></input>
+                <p class="site-title"><a href="../index.html">Tanish's Movie Reviews</a></p>
+                <a href="https://github.com/Stoginator" title="Visit Owner's GitHub"><img class="memoji" src="../assets/icons/memoji.png"></img></a>
+            </header>
+            <hr class="rounded">
+            <p class="year">Watched List</p>
+            <p class="year">2023</p>
+            <section class="roboto movie-grid">
+                <a href="../reviews/dunki_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/dunki.webp"
+                            alt="Dunki movie"
+                            title="Link to Dunki movie review"
+                        >
+                        <figcaption class="main-box-left">Dunki</figcaption>
+                        <figcaption class="main-box-right">December 31</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/the_fugitive.webp"
+                        alt="Harrison Ford prepares to jump out of a water pipe."
+                    >
+                    <figcaption class="main-box-left">The Fugitive</figcaption>
+                    <figcaption class="main-box-right">December 29</figcaption>
+                </figure>
+                <a href="../reviews/leave_the_world_behind_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/leave_the_world_behind.webp"
+                            alt="Leave The World Behind movie"
+                            title="Link to Leave The World Behind movie review"
+                        >
+                        <figcaption class="main-box-left">Leave The World Behind</figcaption>
+                        <figcaption class="main-box-right">December 28</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/the_killer.webp"
+                        alt="A paid assassin watches his target."
+                    >
+                    <figcaption class="main-box-left">The Killer</figcaption>
+                    <figcaption class="main-box-right">December 27</figcaption>
+                </figure>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/green_book.webp"
+                        alt="Two friends reunite on Christmas Eve."
+                    >
+                    <figcaption class="main-box-left">Green Book</figcaption>
+                    <figcaption class="main-box-right">December 26</figcaption>
+                </figure>
+                <a href="../reviews/catch_me_if_you_can_2017.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/catch_me_if_you_can_2023.webp"
+                            alt="Catch Me If You Can movie"
+                            title="Link to Catch Me If You Can movie review"
+                        >
+                        <figcaption class="main-box-left">Catch Me If You Can</figcaption>
+                        <figcaption class="main-box-right">December 24</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/planes_trains_automobiles.webp"
+                        alt="Steve Martin and John Candy sit together."
+                    >
+                    <figcaption class="main-box-left">Planes, Trains, and Automobiles</figcaption>
+                    <figcaption class="main-box-right">December 20</figcaption>
+                </figure>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/christmas_with_the_kranks.webp"
+                        alt="A family reunites on Christmas Eve."
+                    >
+                    <figcaption class="main-box-left">Christmas With The Kranks</figcaption>
+                    <figcaption class="main-box-right">December 19</figcaption>
+                </figure>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/a_man_called_otto.webp"
+                        alt="Tom Hanks stars in this film!"
+                    >
+                    <figcaption class="main-box-left">A Man Called Otto</figcaption>
+                    <figcaption class="main-box-right">December 19</figcaption>
+                </figure>
+                <a href="../reviews/oppenheimer_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/review_photos/oppenheimer_wave.webp"
+                            alt="Oppenheimer movie"
+                            title="Link to Oppenheimer movie review"
+                        >
+                        <figcaption class="main-box-left">Oppenheimer</figcaption>
+                        <figcaption class="main-box-right">December 12</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/burning.webp"
+                        alt="The three main characters sit together during a Korean sunset."
+                    >
+                    <figcaption class="main-box-left">Burning</figcaption>
+                    <figcaption class="main-box-right">December 7</figcaption>
+                </figure>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/eastern_promises.webp"
+                        alt="Viggo Mortenson plays a Russian mobster."
+                    >
+                    <figcaption class="main-box-left">Eastern Promises</figcaption>
+                    <figcaption class="main-box-right">December 6</figcaption>
+                </figure>
+                <a href="../reviews/godzilla_minus_one_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/godzilla_minus_one.webp"
+                            alt="Godzilla Minus One movie"
+                            title="Link to Godzilla Minus One movie review"
+                        >
+                        <figcaption class="main-box-left">Godzilla Minus One</figcaption>
+                        <figcaption class="main-box-right">December 5</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/a_clockwork_orange.webp"
+                        alt="The troublemakers beat an innocent, homeless man."
+                    >
+                    <figcaption class="main-box-left">A Clockwork Orange</figcaption>
+                    <figcaption class="main-box-right">November 30</figcaption>
+                </figure>
+                <a href="../reviews/saving_private_ryan_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/saving_private_ryan.webp"
+                            alt="Saving Private Ryan movie"
+                            title="Link to Saving Private Ryan movie review"
+                        >
+                        <figcaption class="main-box-left">Saving Private Ryan</figcaption>
+                        <figcaption class="main-box-right">November 20</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/killers_flower_moon_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/killers_flower_moon.webp"
+                            alt="Killers of the Flower Moon movie"
+                            title="Link to Killers of the Flower Moon movie review"
+                        >
+                        <figcaption class="main-box-left">Killers of the Flower Moon</figcaption>
+                        <figcaption class="main-box-right">October 24</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/talk_to_me_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/talk_to_me.webp"
+                            alt="Talk to Me movie"
+                            title="Link to Talk to Me movie review"
+                        >
+                        <figcaption class="main-box-left">Talk to Me</figcaption>
+                        <figcaption class="main-box-right">October 21</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/the_creator_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/the_creator.webp"
+                            alt="The Creator movie"
+                            title="Link to The Creator movie review"
+                        >
+                        <figcaption class="main-box-left">The Creator</figcaption>
+                        <figcaption class="main-box-right">October 6</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/inside_job_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/inside_job.webp"
+                            alt="Inside Job movie"
+                            title="Link to Inside Job movie review"
+                        >
+                        <figcaption class="main-box-left">Inside Job</figcaption>
+                        <figcaption class="main-box-right">September 28</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <figure class="main-box">
+                    <img 
+                        src="../assets/cards/vertigo.webp"
+                        alt="Hitchcock's famous camera shot of the Golden Gate bridge"
+                    >
+                    <figcaption class="main-box-left">Vertigo</figcaption>
+                    <figcaption class="main-box-right">September 16</figcaption>
+                </figure>
+                <a href="../reviews/manchester_by_the_sea_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/manchester_by_the_sea.webp"
+                            alt="Manchester By The Sea movie"
+                            title="Link to Manchester By The Sea movie review"
+                        >
+                        <figcaption class="main-box-left">Manchester By The Sea</figcaption>
+                        <figcaption class="main-box-right">September 9</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/oppenheimer_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/review_photos/oppenheimer_fire.webp"
+                            alt="Oppenheimer movie"
+                            title="Link to Oppenheimer movie review"
+                        >
+                        <figcaption class="main-box-left">Oppenheimer</figcaption>
+                        <figcaption class="main-box-right">August 19</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/tenet_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/tenet.webp"
+                            alt="Tenet movie"
+                            title="Link to Tenet movie review"
+                        >
+                        <figcaption class="main-box-left">Tenet</figcaption>
+                        <figcaption class="main-box-right">August 13</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/barbie_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/barbie.webp"
+                            alt="Barbie movie"
+                            title="Link to Barbie movie review"
+                        >
+                        <figcaption class="main-box-left">Barbie</figcaption>
+                        <figcaption class="main-box-right">August 12</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/oppenheimer_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/oppenheimer.webp"
+                            alt="Oppenheimer movie"
+                            title="Link to Oppenheimer movie review"
+                        >
+                        <figcaption class="main-box-left">Oppenheimer</figcaption>
+                        <figcaption class="main-box-right">July 27</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/mi7_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/mi7.webp"
+                            alt="Mission: Impossible - Dead Reckoning Part One movie"
+                            title="Link to Mission: Impossible - Dead Reckoning Part One movie review"
+                        >
+                        <figcaption class="main-box-left">Mission: Impossible - Dead Reckoning Part One</figcaption>
+                        <figcaption class="main-box-right">July 16</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/indiana_jones_5_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/indiana_jones_5.webp"
+                            alt="Indiana Jones and the Dial of Destiny movie"
+                            title="Link to Indiana Jones and the Dial of Destiny movie review"
+                            loading="lazy"
+                        >
+                        <figcaption class="main-box-left">Indiana Jones and the Dial of Destiny</figcaption>
+                        <figcaption class="main-box-right">July 8</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/across_the_spiderverse_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/review_photos/across_the_spiderverse_gwen_miles.webp"
+                                alt="Spider-Man: Across the Spiderverse movie"
+                                title="Link to Spider-Man: Across the Spiderverse review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Spider-Man: Across the Spiderverse</figcaption>
+                        <figcaption class="main-box-right">June 27</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/past_lives_2023.html">
+                    <figure class="main-box">
+                        <img 
+                            src="../assets/cards/past_lives.webp"
+                            alt="Past Lives movie"
+                            title="Link to Past Lives movie review"
+                            loading="lazy"
+                        >
+                        <figcaption class="main-box-left">Past Lives</figcaption>
+                        <figcaption class="main-box-right">June 27</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/thelma_and_louise_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/cards/thelma_and_louise.webp"
+                                alt="Thelma and Louise movie"
+                                title="Link to Thelma and Louise movie review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Thelma and Louise</figcaption>
+                        <figcaption class="main-box-right">June 26</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/rogue_nation_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/cards/mi5.webp"
+                                alt="Mission: Impossible - Rogue Nation movie"
+                                title="Link to Mission: Impossible - Rogue Nation movie review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Mission: Impossible - Rogue Nation</figcaption>
+                        <figcaption class="main-box-right">June 25</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/ghost_protocol_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/cards/mi4.webp"
+                                alt="Mission: Impossible - Ghost Protocol movie"
+                                title="Link to Mission: Impossible - Ghost Protocol review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Mission: Impossible - Ghost Protocol</figcaption>
+                        <figcaption class="main-box-right">June 22</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/verdict_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/cards/the_verdict.webp"
+                                alt="The Verdict movie"
+                                title="Link to The Verdict review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">The Verdict</figcaption>
+                        <figcaption class="main-box-right">June 19</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/cool_hand_luke_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/cards/cool_hand_luke.webp"
+                                alt="Cool Hand Luke movie"
+                                title="Link to Cool Hand Luke review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Cool Hand Luke</figcaption>
+                        <figcaption class="main-box-right">June 14</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/across_the_spiderverse_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/review_photos/across_the_spiderverse_rio_miles.webp"
+                                alt="Spider-Man: Across the Spiderverse movie"
+                                title="Link to Spider-Man: Across the Spiderverse review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Spider-Man: Across the Spiderverse</figcaption>
+                        <figcaption class="main-box-right">June 13</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <a href="../reviews/across_the_spiderverse_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/cards/across_the_spiderverse.webp"
+                                alt="Spider-Man: Across the Spiderverse movie"
+                                title="Link to Spider-Man: Across the Spiderverse review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Spider-Man: Across the Spiderverse</figcaption>
+                        <figcaption class="main-box-right">June 7</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+                <figure class="main-box">
+                            <img 
+                                src="../assets/cards/fast_x.webp"
+                                alt="Fast X Movie"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Fast X</figcaption>
+                        <figcaption class="main-box-right">May 23</figcaption>
+                </figure>
+                <figure class="main-box">
+                            <img 
+                                src="../assets/cards/dungeons_and_dragons.webp"
+                                alt="Dungeons and Dragons: Honor Among Thieves Movie"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Dungeons and Dragons: Honor Among Thieves</figcaption>
+                        <figcaption class="main-box-right">May 16</figcaption>
+                </figure>
+                <figure class="main-box">
+                            <img 
+                                src="../assets/cards/super_mario_bros_movie.webp"
+                                alt="The Super Mario Bros Movie"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">The Super Mario Bros. Movie</figcaption>
+                        <figcaption class="main-box-right">May 2</figcaption>
+                </figure>
+                <figure class="main-box">
+                            <img 
+                                src="../assets/cards/air.webp"
+                                alt="Air movie"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Air</figcaption>
+                        <figcaption class="main-box-right">May 2</figcaption>
+                </figure>
+                <a href="../reviews/avatar_2_2023.html">
+                    <figure class="main-box">
+                            <img 
+                                src="../assets/cards/avatar_2.webp"
+                                alt="Avatar: The Way of Water movie"
+                                title="Link to Avatar: The Way of Water review"
+                                loading="lazy"
+                            >
+                        <figcaption class="main-box-left">Avatar: The Way of Water</figcaption>
+                        <figcaption class="main-box-right">February 3</figcaption>
+                        <figcaption class="main-box-top">&#x2611;</figcaption>
+                    </figure>
+                </a>
+            </section>
+        </main>
+		<footer class="site-footer roboto">
+            Roboto designed by Christian Robertson; licensed through Google Fonts.<br>
+            All trademarks are the property of the respective trademark owners.<br>
+            &copy 2024 <a href="https://github.com/Stoginator">Tanish Rastogi</a>. All Rights Reserved.
+        </footer>
+	</body>
+</html>

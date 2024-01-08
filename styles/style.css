@@ -228,7 +228,7 @@ hr.rounded {
 
 /*----------------------------------- Site Footer ------------------------------------*/
 .site-footer {
-    padding-top: 10px;
+    padding-top: 25px;
     text-align: center;
     font-size: x-small;
     height: 5em;
@@ -351,6 +351,27 @@ hr.rounded {
     padding-top: 1em;
     padding-bottom: 2em;
     margin-right: 1em;
+}
+
+.main-box-top {
+    font-family: "Roboto-Medium", system-ui;
+    font-size: large;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #1DFF8E;
+    z-index: 2; 
+    text-align: right;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-right: 1em;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1200px) {
+    .main-box-top {
+        font-size: x-large;
+    }
 }
 
 .movie-grid {
