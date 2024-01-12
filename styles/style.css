@@ -374,6 +374,27 @@ hr.rounded {
     }
 }
 
+.main-box-count {
+    font-family: "Roboto-Medium", system-ui;
+    font-size: large;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    color: #ffbf00;
+    z-index: 2; 
+    text-align: right;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-right: 1em;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 400px) {
+    .main-box-count {
+        font-size: x-large;
+    }
+}
+
 .movie-grid {
     display: grid;
     grid-gap: 15px;
