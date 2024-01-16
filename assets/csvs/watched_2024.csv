@@ -1,13 +1,18 @@
 tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
-568,tt0112384,Apollo 13,1995,Ron Howard,2023-01-01,False,Standard,
-2493,tt0093779,The Princess Bride,1987,Rob Reiner,2023-01-03,False,Standard,
-297222,tt2338151,PK,2014,Rajkumar Hirani,2023-01-04,False,Standard,
-963,tt0033870,The Maltese Falcon,1941,John Huston,2023-01-05,False,Standard,
-11007,tt0349205,Cheaper By The Dozen,2003,Shawn Levy,2023-01-06,True,Standard,
-671,tt0241527,Harry Potter and the Sorcerer's Stone,2001,Chris Columbus,2023-01-08,True,Standard,https://www.tanishsmoviereviews.com/reviews/sorcerers_stone_2024.html
-121986,tt2347569,Frances Ha,2012,Noah Baumbach,2023-01-09,False,Standard,https://www.tanishsmoviereviews.com/reviews/frances_ha_2024.html
-218,tt0088247,The Terminator,1984,James Cameron,2023-01-09,False,Standard,
-280,tt0103064,Terminator 2: Judgement Day,1991,James Cameron,2023-01-10,True,Standard,
-16619,tt0081283,Ordinary People,1980,Robert Redford,2023-01-11,False,Standard,
-642394,tt11477684,Belichick and Saban: The Art of Coaching,2019,Ken Rodgers,2023-01-11,False,Standard,
-334533,tt3553976,Captain Fantastic,2016,Matt Ross,2023-01-11,False,Standard,
+568,tt0112384,Apollo 13,1995,Ron Howard,2023-01-01,FALSE,Standard,
+2493,tt0093779,The Princess Bride,1987,Rob Reiner,2023-01-03,FALSE,Standard,
+297222,tt2338151,PK,2014,Rajkumar Hirani,2023-01-04,FALSE,Standard,
+963,tt0033870,The Maltese Falcon,1941,John Huston,2023-01-05,FALSE,Standard,
+11007,tt0349205,Cheaper By The Dozen,2003,Shawn Levy,2023-01-06,TRUE,Standard,
+671,tt0241527,Harry Potter and the Sorcerer's Stone,2001,Chris Columbus,2023-01-08,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/sorcerers_stone_2024.html
+121986,tt2347569,Frances Ha,2012,Noah Baumbach,2023-01-09,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/frances_ha_2024.html
+218,tt0088247,The Terminator,1984,James Cameron,2023-01-09,FALSE,Standard,
+280,tt0103064,Terminator 2: Judgement Day,1991,James Cameron,2023-01-10,TRUE,Standard,
+16619,tt0081283,Ordinary People,1980,Robert Redford,2023-01-11,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/ordinary_people_2024.html
+642394,tt11477684,Belichick and Saban: The Art of Coaching,2019,Ken Rodgers,2023-01-11,FALSE,Standard,
+334533,tt3553976,Captain Fantastic,2016,Matt Ross,2023-01-11,FALSE,Standard,
+,,Annihilation,2018,Alex Garland,2023-01-12,FALSE,Standard,
+,,The Amazing Spider-Man,2012,Marc Webb,2023-01-13,TRUE,Standard,
+,,Harry Potter and the Chamber of Secrets,2002,Chris Columbus,2023-01-14,TRUE,Standard,
+,,It Happened One Night,1934,Frank Capra,2023-01-15,FALSE,Standard,
+,,"To Sir, With Love",1967,James Clavell,2023-01-15,FALSE,Standard,
