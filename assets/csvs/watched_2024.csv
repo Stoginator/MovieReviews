@@ -40,3 +40,7 @@ tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
 ,,The Terminal,2004,Steven Spielberg,2/7/23,TRUE,Standard,
 ,,Spartacus,1960,Stanley Kubrick,2/8/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/spartacus_2024.html
 ,,American Fiction,2023,Cord Jefferson,2/9/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/american_fiction_2024.html
+,,Ready Player One,2018,Steven Spielberg,2/13/23,TRUE,Standard,
+,,Prey,2022,Dan Trachtenberg,2/13/23,FALSE,Standard,
+,,Harry Potter and the Prisoner of Azkaban,2004,Alfonso Cuar—n,2/14/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/prisoner_azkaban_2016.html
+,,The Rehearsal,2022,"Nathan Fielder, Benny Safdie",2/15/23,FALSE,Standard,
