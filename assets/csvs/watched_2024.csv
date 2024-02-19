@@ -44,3 +44,8 @@ tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
 766507,tt11866324,Prey,2022,Dan Trachtenberg,2023-02-12,FALSE,Standard,
 673,tt0304141,Harry Potter and the Prisoner of Azkaban,2004,Alfonso Cuaron,2023-02-13,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/prisoner_azkaban_2016.html
 1043948,tt10802170,The Rehearsal,2022,Nathan Fielder,2023-02-14,FALSE,Standard,
+,,Guess Who's Coming to Dinner,1967,Stanley Kramer,2023-02-14,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/guess_whos_coming_to_dinner_2024.html
+,,Punch Drunk Love,2002,Paul Thomas Anderson,2023-02-15,TRUE,Standard,
+,,Sleepless in Seattle,1993,Nora Ephron,2023-02-16,FALSE,Standard,
+,,Oppenheimer,2023,Christopher Nolan,2023-02-18,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
+,,JFK,1991,Oliver Stone,2023-02-18,TRUE,Standard,
