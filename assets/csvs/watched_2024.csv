@@ -1,51 +1,53 @@
 tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
-568,tt0112384,Apollo 13,1995,Ron Howard,2023-01-01,FALSE,Standard,
-2493,tt0093779,The Princess Bride,1987,Rob Reiner,2023-01-03,FALSE,Standard,
-297222,tt2338151,PK,2014,Rajkumar Hirani,2023-01-04,FALSE,Standard,
-963,tt0033870,The Maltese Falcon,1941,John Huston,2023-01-05,FALSE,Standard,
-11007,tt0349205,Cheaper By The Dozen,2003,Shawn Levy,2023-01-06,TRUE,Standard,
-671,tt0241527,Harry Potter and the Sorcerer's Stone,2001,Chris Columbus,2023-01-08,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/sorcerers_stone_2024.html
-121986,tt2347569,Frances Ha,2012,Noah Baumbach,2023-01-09,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/frances_ha_2024.html
-218,tt0088247,The Terminator,1984,James Cameron,2023-01-09,FALSE,Standard,
-280,tt0103064,Terminator 2: Judgement Day,1991,James Cameron,2023-01-10,TRUE,Standard,
-16619,tt0081283,Ordinary People,1980,Robert Redford,2023-01-11,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/ordinary_people_2024.html
-642394,tt11477684,Belichick and Saban: The Art of Coaching,2019,Ken Rodgers,2023-01-11,FALSE,Standard,
-334533,tt3553976,Captain Fantastic,2016,Matt Ross,2023-01-11,TRUE,Standard,
-300668,tt2798920,Annihilation,2018,Alex Garland,2023-01-12,FALSE,Standard,
-1930,tt0948470,The Amazing Spider-Man,2012,Marc Webb,2023-01-13,TRUE,Standard,
-672,tt0295297,Harry Potter and the Chamber of Secrets,2002,Chris Columbus,2023-01-14,TRUE,Standard,
-3078,tt0025316,It Happened One Night,1934,Frank Capra,2023-01-15,FALSE,Standard,
-25934,tt0062376,"To Sir, With Love",1967,James Clavell,2023-01-15,FALSE,Standard,
-1580,tt0040746,Rope,1948,Alfred Hitchcock,2023-01-16,FALSE,Standard,
-906126,tt16277242,Society of the Snow,2024,J.A. Bayona,2023-01-17,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/society_of_the_snow_2024.html
-49040,tt1194173,The Bourne Legacy,2012,Tony Gilroy,2023-01-18,FALSE,Standard,
-12162,tt0887912,The Hurt Locker,2009,Kathryn Bigelow,2023-01-19,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/hurt_locker_2020.html
-658,tt0058150,Goldfinger,1964,Guy Hamilton,2023-01-19,FALSE,Standard,
-64688,tt1232829,21 Jump Street,2012,"Phil Lord, Christopher Miller",2023-01-20,TRUE,Standard,
-161,tt0240772,Ocean's Eleven,2001,Steven Soderbergh,2023-01-20,TRUE,Standard,
-792307,tt14230458,Poor Things,2023,Yorgos Lanthimos,2023-01-21,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/poor_things_2024.html
-25188,tt0067328,The Last Picture Show,1971,Peter Bogdanovich,2023-01-22,FALSE,Standard,
-10637,tt0210945,Remember the Titans,2000,Boaz Yakin,2023-01-23,TRUE,Standard,
-438631,tt1160419,Dune,2021,Denis Villeneuve,2023-01-24,TRUE,IMAX Laser,https://www.tanishsmoviereviews.com/reviews/dune_2024.html
-102382,tt1872181,The Amazing Spider-Man 2,2014,Marc Webb,2023-01-27,TRUE,Standard,
-805,tt0063522,Rosemary's Baby,1968,Roman Polanski,2023-01-29,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/rosemarys_baby_2024.html
-2501,tt0258463,The Bourne Identity,2002,Doug Liman,2023-01-29,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/bourne_identity_2024.html
-2502,tt0372183,The Bourne Supremacy,2004,Paul Greengrass,2023-01-30,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/bourne_supremacy_2024.html
-44826,tt0970179,Hugo,2011,Martin Scorsese,2023-01-31,TRUE,Standard,
-2503,tt0440963,The Bourne Ultimatum,2007,Paul Greengrass,2023-02-01,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/bourne_ultimatum_2016.html
-1091,tt0084787,The Thing,1982,John Carpenter,2023-02-02,FALSE,Standard,
-89,tt0097576,Indiana Jones and the Last Crusade,1989,Steven Spielberg,2023-02-03,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/indiana_jones_3_2015.html
-168,tt0092007,Star Trek IV: The Voyage Home,1986,Leonard Nimoy,2023-02-05,FALSE,Standard,
-114655,tt13623608,The Curse,2023,"Nathan Fielder, Benny Safdie",2023-02-06,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/the_curse_2024.html
-594,tt0362227,The Terminal,2004,Steven Spielberg,2023-02-07,TRUE,Standard,
-967,tt0054331,Spartacus,1960,Stanley Kubrick,2023-02-08,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/spartacus_2024.html
-1056360,tt23561236,American Fiction,2023,Cord Jefferson,2023-02-09,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/american_fiction_2024.html
-333339,tt1677720,Ready Player One,2018,Steven Spielberg,2023-02-12,TRUE,Standard,
-766507,tt11866324,Prey,2022,Dan Trachtenberg,2023-02-12,FALSE,Standard,
-673,tt0304141,Harry Potter and the Prisoner of Azkaban,2004,Alfonso Cuaron,2023-02-13,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/prisoner_azkaban_2016.html
-1043948,tt10802170,The Rehearsal,2022,Nathan Fielder,2023-02-14,FALSE,Standard,
-,,Guess Who's Coming to Dinner,1967,Stanley Kramer,2023-02-14,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/guess_whos_coming_to_dinner_2024.html
-,,Punch Drunk Love,2002,Paul Thomas Anderson,2023-02-15,TRUE,Standard,
-,,Sleepless in Seattle,1993,Nora Ephron,2023-02-16,FALSE,Standard,
-,,Oppenheimer,2023,Christopher Nolan,2023-02-18,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
-,,JFK,1991,Oliver Stone,2023-02-18,TRUE,Standard,
+568,tt0112384,Apollo 13,1995,Ron Howard,1/1/23,FALSE,Standard,
+2493,tt0093779,The Princess Bride,1987,Rob Reiner,1/3/23,FALSE,Standard,
+297222,tt2338151,PK,2014,Rajkumar Hirani,1/4/23,FALSE,Standard,
+963,tt0033870,The Maltese Falcon,1941,John Huston,1/5/23,FALSE,Standard,
+11007,tt0349205,Cheaper By The Dozen,2003,Shawn Levy,1/6/23,TRUE,Standard,
+671,tt0241527,Harry Potter and the Sorcerer's Stone,2001,Chris Columbus,1/8/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/sorcerers_stone_2024.html
+121986,tt2347569,Frances Ha,2012,Noah Baumbach,1/9/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/frances_ha_2024.html
+218,tt0088247,The Terminator,1984,James Cameron,1/9/23,FALSE,Standard,
+280,tt0103064,Terminator 2: Judgement Day,1991,James Cameron,1/10/23,TRUE,Standard,
+16619,tt0081283,Ordinary People,1980,Robert Redford,1/11/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/ordinary_people_2024.html
+642394,tt11477684,Belichick and Saban: The Art of Coaching,2019,Ken Rodgers,1/11/23,FALSE,Standard,
+334533,tt3553976,Captain Fantastic,2016,Matt Ross,1/11/23,TRUE,Standard,
+300668,tt2798920,Annihilation,2018,Alex Garland,1/12/23,FALSE,Standard,
+1930,tt0948470,The Amazing Spider-Man,2012,Marc Webb,1/13/23,TRUE,Standard,
+672,tt0295297,Harry Potter and the Chamber of Secrets,2002,Chris Columbus,1/14/23,TRUE,Standard,
+3078,tt0025316,It Happened One Night,1934,Frank Capra,1/15/23,FALSE,Standard,
+25934,tt0062376,"To Sir, With Love",1967,James Clavell,1/15/23,FALSE,Standard,
+1580,tt0040746,Rope,1948,Alfred Hitchcock,1/16/23,FALSE,Standard,
+906126,tt16277242,Society of the Snow,2024,J.A. Bayona,1/17/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/society_of_the_snow_2024.html
+49040,tt1194173,The Bourne Legacy,2012,Tony Gilroy,1/18/23,FALSE,Standard,
+12162,tt0887912,The Hurt Locker,2009,Kathryn Bigelow,1/19/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/hurt_locker_2020.html
+658,tt0058150,Goldfinger,1964,Guy Hamilton,1/19/23,FALSE,Standard,
+64688,tt1232829,21 Jump Street,2012,"Phil Lord, Christopher Miller",1/20/23,TRUE,Standard,
+161,tt0240772,Ocean's Eleven,2001,Steven Soderbergh,1/20/23,TRUE,Standard,
+792307,tt14230458,Poor Things,2023,Yorgos Lanthimos,1/21/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/poor_things_2024.html
+25188,tt0067328,The Last Picture Show,1971,Peter Bogdanovich,1/22/23,FALSE,Standard,
+10637,tt0210945,Remember the Titans,2000,Boaz Yakin,1/23/23,TRUE,Standard,
+438631,tt1160419,Dune,2021,Denis Villeneuve,1/24/23,TRUE,IMAX Laser,https://www.tanishsmoviereviews.com/reviews/dune_2024.html
+102382,tt1872181,The Amazing Spider-Man 2,2014,Marc Webb,1/27/23,TRUE,Standard,
+805,tt0063522,Rosemary's Baby,1968,Roman Polanski,1/29/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/rosemarys_baby_2024.html
+2501,tt0258463,The Bourne Identity,2002,Doug Liman,1/29/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/bourne_identity_2024.html
+2502,tt0372183,The Bourne Supremacy,2004,Paul Greengrass,1/30/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/bourne_supremacy_2024.html
+44826,tt0970179,Hugo,2011,Martin Scorsese,1/31/23,TRUE,Standard,
+2503,tt0440963,The Bourne Ultimatum,2007,Paul Greengrass,2/1/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/bourne_ultimatum_2016.html
+1091,tt0084787,The Thing,1982,John Carpenter,2/2/23,FALSE,Standard,
+89,tt0097576,Indiana Jones and the Last Crusade,1989,Steven Spielberg,2/3/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/indiana_jones_3_2015.html
+168,tt0092007,Star Trek IV: The Voyage Home,1986,Leonard Nimoy,2/5/23,FALSE,Standard,
+114655,tt13623608,The Curse,2023,"Nathan Fielder, Benny Safdie",2/6/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/the_curse_2024.html
+594,tt0362227,The Terminal,2004,Steven Spielberg,2/7/23,TRUE,Standard,
+967,tt0054331,Spartacus,1960,Stanley Kubrick,2/8/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/spartacus_2024.html
+1056360,tt23561236,American Fiction,2023,Cord Jefferson,2/9/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/american_fiction_2024.html
+333339,tt1677720,Ready Player One,2018,Steven Spielberg,2/12/23,TRUE,Standard,
+766507,tt11866324,Prey,2022,Dan Trachtenberg,2/12/23,FALSE,Standard,
+673,tt0304141,Harry Potter and the Prisoner of Azkaban,2004,Alfonso Cuaron,2/13/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/prisoner_azkaban_2016.html
+1043948,tt10802170,The Rehearsal,2022,Nathan Fielder,2/14/23,FALSE,Standard,
+,,Guess Who's Coming to Dinner,1967,Stanley Kramer,2/14/23,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/guess_whos_coming_to_dinner_2024.html
+,,Punch Drunk Love,2002,Paul Thomas Anderson,2/15/23,TRUE,Standard,
+,,Sleepless in Seattle,1993,Nora Ephron,2/16/23,FALSE,Standard,
+,,Oppenheimer,2023,Christopher Nolan,2/18/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/oppenheimer_2023.html
+,,JFK,1991,Oliver Stone,2/18/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/jfk_2024.html
+,,His Girl Friday,1940,Howard Hawks,2/19/23,FALSE,Standard,
+,,Kramer vs. Kramer,1979,Robert Benton,2/19/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/kramer_vs_kramer_2024.html
