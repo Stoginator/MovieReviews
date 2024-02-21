@@ -51,3 +51,5 @@ tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
 ,,JFK,1991,Oliver Stone,2/18/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/jfk_2024.html
 ,,His Girl Friday,1940,Howard Hawks,2/19/23,FALSE,Standard,
 ,,Kramer vs. Kramer,1979,Robert Benton,2/19/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/kramer_vs_kramer_2024.html
+,,The Patriot,2000,Roland Emmerich,2/20/23,TRUE,Standard,
+,,Starman,1984,John Carpenter,2/20/23,FALSE,Standard,
