@@ -53,3 +53,4 @@ tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
 ,,Kramer vs. Kramer,1979,Robert Benton,2/19/23,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/kramer_vs_kramer_2024.html
 ,,The Patriot,2000,Roland Emmerich,2/20/23,TRUE,Standard,
 ,,Starman,1984,John Carpenter,2/20/23,FALSE,Standard,
+,,Tenet,2020,Christopher Nolan,2/24/23,TRUE,IMAX Digital,https://www.tanishsmoviereviews.com/reviews/tenet_2023.html
