@@ -9,7 +9,7 @@ Visit [my site](https://www.tanishsmoviereviews.com) to read them! Hosted proudl
 1. **Responsive Design**: Resize the page and have fun. My site is styled for mobile phones and desktops.
 2. **Idiomatic HTML**: Each page features HTML written as intended by the World Wide Web Consortium (W3C).
 3. **Latest CSS**: I used the latest techniques like Grid and Flex! 
-4. **Accessibility**: My site was developed with screen readers in mind. Each page received a high accessibility score of 95+ from PageSpeed Insights. See an [example](https://pagespeed.web.dev/analysis/https-www-tanishsmoviereviews-com-reviews-oppenheimer_2023-html/y9stim2uzz?form_factor=mobile).
+4. **Accessibility**: My site was developed with screen readers in mind. Each page received a high accessibility score of 95+ from PageSpeed Insights. Try for yourself by pasting this [link](https://www.tanishsmoviereviews.com/reviews/dune_part_two_2024.html) on [PageSpeed Insights](https://pagespeed.web.dev).
 5. **Light / Dark Mode Toggle**: implemented without a flash of unstyled content (FOUC), remembers preference from previous visits, matches OS-default otherwise
 6. **Meta tags for each page**: any page and review is sharable on social media, iMessage, or Discord with the site image, title, and description for beautifully rendered links
 7. **No web frameworks**: Having used React and Angular, I wanted to design a website from scratch to learn the fundamentals.
