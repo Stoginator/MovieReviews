@@ -1,7 +1,7 @@
 # MovieReviews
 A simple website using pure JS, CSS, and HTML to showcase my movie reviews.
 
-As of April 2024, there are 75 reviews on the site. I expect to add at least 1 review a month.
+As of November 2024, there are 92 reviews on the site. I expect to add at least 1 review a month.
 
 Visit [my site](https://www.tanishsmoviereviews.com) to read them! Hosted proudly on GitHub Pages.
 
