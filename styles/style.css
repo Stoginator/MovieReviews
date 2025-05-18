@@ -728,6 +728,84 @@ hr.rounded {
 }
 /*------------------------------------------------------------------------------------*/
 
+/*--------------------- Photo Carousel -----------------------------------------------*/
+
+.carousel-container {
+    width: 100%;
+    max-width: 1000px;
+    aspect-ratio: 16 / 9;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+    background: black; /* Ensures black bars */
+}
+
+.carousel-slides {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  /* Show full image with letterboxing if needed */
+    display: block;
+    background: black; /* Prevents gray gaps if image has transparency */
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    padding: 5px 10px;
+    background: rgba(0,0,0,0.3);
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+}
+
+.carousel-left { left: 10px; }
+.carousel-right { right: 10px; }
+
+.carousel-dots {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
+
+.carousel-dot.active {
+    background: #fff;
+}
+/*------------------------------------------------------------------------------------*/
+
 /* --------------------------------- Plain Text Review List ------------------------- */
 
 .review-list {
