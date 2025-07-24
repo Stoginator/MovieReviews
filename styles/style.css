@@ -806,6 +806,39 @@ hr.rounded {
 }
 /*------------------------------------------------------------------------------------*/
 
+/* -------------------------- Script Formatting for Reviews ------------------------- */
+
+.script-list {
+    list-style: none;
+}
+
+.smash-cut {
+    font: 18px Courier, fixed; 
+    text-align: right
+}
+
+.character-name {
+    width: 75%; 
+    font: 18px Courier, fixed; 
+    margin-left: 45%;
+}
+
+.dialogue {
+    width: 70%; 
+    font: 18px Courier, fixed; 
+    margin-left: 20%; 
+    padding-right: 25%
+}
+
+@media only screen and (min-width: 800px) {
+    .dialogue { 
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+/*------------------------------------------------------------------------------------*/
+
 /* --------------------------------- Plain Text Review List ------------------------- */
 
 .review-list {
