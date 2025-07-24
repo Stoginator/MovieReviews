@@ -820,17 +820,49 @@ hr.rounded {
 .character-name {
     width: 75%; 
     font: 18px Courier, fixed; 
-    margin-left: 45%;
+    margin-left: 35%;
 }
 
 .dialogue {
     width: 70%; 
     font: 18px Courier, fixed; 
-    margin-left: 20%; 
+    margin-left: 10%; 
     padding-right: 25%
 }
 
+@media only screen and (min-width: 600px) {
+
+    .character-name {
+        width: 75%; 
+        margin-left: 40%;
+    }
+
+    .dialogue { 
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+
 @media only screen and (min-width: 800px) {
+
+    .character-name {
+        width: 75%; 
+        margin-left: 40%;
+    }
+
+    .dialogue { 
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .character-name {
+        width: 75%; 
+        margin-left: 45%;
+    }
+
     .dialogue { 
         width: 40%;
         margin-left: 30%;
