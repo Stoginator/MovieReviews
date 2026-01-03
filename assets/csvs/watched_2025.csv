@@ -1,64 +1,114 @@
-"tmdbID","imdbID","Title","Year","Directors","WatchedDate","Rewatch","Format","ReviewURL"
-"","","SLC Punk","1998","James Merendino","2025-01-04","FALSE","Standard",""
-"","","Loki: Season One","2021","Kate Herron","2025-01-05","TRUE","Standard",""
-"","","Juror #2","2024","Clint Eastwood","2025-01-07","FALSE","Standard",""
-"","","Mad Max: Fury Road","2015","George Miller","2025-01-08","TRUE","Standard",""
-"","","Challengers","2024","Lucas Guadagnino","2025-01-10","FALSE","Standard",""
-"","","Wicked","2024","Jon M. Chu","2025-01-11","FALSE","Standard",""
-"","","The Devil's Backbone","2001","Guillermo Del Toro","2025-01-12","FALSE","Standard",""
-"","","The Brutalist","2024","Brady Corbet","2025-01-15","FALSE","IMAX Laser","https://www.tanishsmoviereviews.com/reviews/brutalist_2025.html"
-"","","Hulk","2003","Ang Lee","2025-01-19","TRUE","Standard","https://www.tanishsmoviereviews.com/reviews/hulk_2025.html"
-"","","Loki: Season Two","2023","Justin Benson, Aaron Moorhead","2025-01-20","FALSE","Standard",""
-"","","Once Upon a Time in the West","1968","Sergio Leone","2025-01-21","FALSE","Standard",""
-"","","Se7en","1995","David Fincher","2025-01-25","FALSE","Standard",""
-"","","A Simple Plan","1998","Sam Raimi","2025-01-28","FALSE","Standard",""
-"","","Signs","2002","M. Night Shyamalan","2025-01-29","FALSE","Standard",""
-"","","Sully","2016","Clint Eastwood","2025-01-31","TRUE","Standard",""
-"","","The Polar Express","2004","Robert Zemekis","2025-02-06","TRUE","Standard",""
-"","","Margin Call","2011","J.C. Chandor","2025-02-09","TRUE","Standard","https://www.tanishsmoviereviews.com/reviews/margin_call_2025.html"
-"","","Spider-Man: Into the Spiderverse","2018","Bob Persichetti, Peter Ramsey, Rodney Rothman","2025-02-13","TRUE","Standard",""
-"","","Captain America: Brave New World","2025","Julius Oneh","2025-02-16","FALSE","Cinemark XD","https://www.tanishsmoviereviews.com/reviews/captain_america_brave_new_world_2025.html"
-"","","Companion","2025","Drew Hancock","2025-02-19","FALSE","Standard","https://www.tanishsmoviereviews.com/reviews/companion_2025.html"
-"","","Anora","2024","Sean Baker","2025-02-24","FALSE","Standard","https://www.tanishsmoviereviews.com/reviews/anora_2025.html"
-"","","The Substance","2024","Coralie Fargeat","2025-02-26","FALSE","Standard",""
-"","","No Country For Old Men","2007","Joel Coen, Ethan Coen","2025-03-03","TRUE","Standard",""
-"","","Superman","1978","Richard Donner","2025-03-07","TRUE","Standard",""
-"","","Mickey 17","2025","Boon Jong Ho","2025-03-11","FALSE","Cinemark XD","https://www.tanishsmoviereviews.com/reviews/mickey_17_2025.html"
-"","","Novocaine","2025","Dan Berk, Robert Olsen","2025-03-16","FALSE","Cinemark XD",""
-"","","3 Idiots","2009","Rajkumar Hirani","2025-03-20","TRUE","Standard",""
-"","","Aparajito","1956","Satyajit Ray","2025-03-23","FALSE","Standard",""
-"","","Black Bag","2025","Steven Soderbergh","2025-03-25","FALSE","Standard","https://www.tanishsmoviereviews.com/reviews/black_bag_2025.html"
-"","","Superman II","1980","Richard Lester","2025-03-29","FALSE","Standard",""
-"","","Phantom Thread","2017","Paul Thomas Anderson","2025-03-29","TRUE","Standard",""
-"","","Apur Sansar","1959","Satyajit Ray","2025-03-30","FALSE","Standard",""
-"","","The Gorge","2025","Scott Derrickson","2025-03-31","FALSE","Standard",""
-"","","Gol Maal","1979","Hrishikesh Mukherjee","2025-04-03","FALSE","Standard",""
-"","","Mission: Impossible II","2000","John Woo","2025-04-04","FALSE","Standard",""
-"","","Munich","2005","Steven Spielberg","2025-04-05","FALSE","Standard",""
-"","","Thief","1981","Michael Mann","2025-04-06","FALSE","Standard",""
-"","","A Minecraft Movie","2025","Jared Hess","2025-04-08","FALSE","Cinemark XD",""
-"","","The Amateur","2025","James Hawes","2025-04-15","FALSE","Standard",""
-"","","The Last of Us: Season One","2023","","2025-04-16","TRUE","Standard",""
-"","","The Dark Money Game","2025","Alex Gibney","2025-04-19","FALSE","Standard",""
-"","","Warfare","2025","Alex Garland, Ray Mendoza","2025-04-20","FALSE","Standard","https://www.tanishsmoviereviews.com/reviews/warfare_2025.html"
-"","","Gandhi","1982","Richard Attenborough","2025-05-02","TRUE","Standard",""
-"","","Sinners","2025","Ryan Coogler","2025-05-03","FALSE","Standard",""
-"","","Paper Moon","1973","Peter Bogdanovich","2025-05-09","FALSE","Standard",""
-"","","Moneyball","2011","Bennett Miller","2025-05-11","TRUE","Standard","https://www.tanishsmoviereviews.com/reviews/moneyball_2025.html"
-"","","Thunderbolts","2025","Jake Schrier","2025-05-13","FALSE","Cinemark XD",""
-"","","The Celluloid Closet","1995","Rob Epstein, Jeffrey Friedman","2025-05-15","FALSE","Standard",""
-"","","Call Me By Your Name","2017","Luca Guadagnino","2025-05-16","TRUE","Standard",""
-"","","Queer","2024","Luca Guadagnino","2025-05-17","FALSE","Standard",""
-"","","A Knight's Tale","2001","Brian Hedgeland","2025-05-21","TRUE","Standard",""
-"","","Mission: Impossible 3","2006","J.J. Abrams","2025-05-23","TRUE","Standard",""
-"","","Mission: Impossible - The Final Reckoning","2025","Christopher McQuarrie","2025-05-24","FALSE","Cinemark XD",""
-"","","The Fall Guy","2024","David Leitch","2025-05-25","TRUE","Standard",""
-"","","Oppenheimer","2023","Christopher Nolan","2025-05-25","TRUE","Standard",""
-"","","The Studio","2025","Seth Rogen, Evan Goldberg","2025-05-25","FALSE","Standard",""
-"","","Say Anything","1989","Cameron Crowe","2025-05-25","TRUE","Standard",""
-"","","From Here to Eternity","1953","Fred Zinneman","2025-05-26","FALSE","Standard",""
-"","","The Last of Us: Season Two","2025","","2025-06-04","FALSE","Standard",""
-"","","The Informant!","2009","Steven Soderbergh","2025-06-07","TRUE","Standard",""
-"","","The Firm","1993","Sydney Pollack","2025-06-10","TRUE","Standard","https://www.tanishsmoviereviews.com/reviews/firm_2025.html"
-"","","Materialists","2025","Celine Song","2025-06-14","FALSE","Standard","https://www.tanishsmoviereviews.com/reviews/materialists_2025.html"
-"","","Dr. No","1962","Terence Winter","2025-06-14","TRUE","Standard",""
+tmdbID,imdbID,Title,Year,Directors,WatchedDate,Rewatch,Format,ReviewURL
+,,SLC Punk,1998,James Merendino,2025-01-04,FALSE,Standard,
+,,Loki: Season One,2021,Kate Herron,2025-01-05,TRUE,Standard,
+,,Juror #2,2024,Clint Eastwood,2025-01-07,FALSE,Standard,
+,,Mad Max: Fury Road,2015,George Miller,2025-01-08,TRUE,Standard,
+,,Challengers,2024,Lucas Guadagnino,2025-01-10,FALSE,Standard,
+,,Wicked,2024,Jon M. Chu,2025-01-11,FALSE,Standard,
+,,The Devil's Backbone,2001,Guillermo Del Toro,2025-01-12,FALSE,Standard,
+,,The Brutalist,2024,Brady Corbet,2025-01-15,FALSE,IMAX Laser,https://www.tanishsmoviereviews.com/reviews/brutalist_2025.html
+,,Hulk,2003,Ang Lee,2025-01-19,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/hulk_2025.html
+,,Loki: Season Two,2023,"Justin Benson, Aaron Moorhead",2025-01-20,FALSE,Standard,
+,,Once Upon a Time in the West,1968,Sergio Leone,2025-01-21,FALSE,Standard,
+,,Se7en,1995,David Fincher,2025-01-25,FALSE,Standard,
+,,A Simple Plan,1998,Sam Raimi,2025-01-28,FALSE,Standard,
+,,Signs,2002,M. Night Shyamalan,2025-01-29,FALSE,Standard,
+,,Sully,2016,Clint Eastwood,2025-01-31,TRUE,Standard,
+,,The Polar Express,2004,Robert Zemekis,2025-02-06,TRUE,Standard,
+,,Margin Call,2011,J.C. Chandor,2025-02-09,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/margin_call_2025.html
+,,Spider-Man: Into the Spiderverse,2018,"Bob Persichetti, Peter Ramsey, Rodney Rothman",2025-02-13,TRUE,Standard,
+,,Captain America: Brave New World,2025,Julius Oneh,2025-02-16,FALSE,Cinemark XD,https://www.tanishsmoviereviews.com/reviews/captain_america_brave_new_world_2025.html
+,,Companion,2025,Drew Hancock,2025-02-19,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/companion_2025.html
+,,Anora,2024,Sean Baker,2025-02-24,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/anora_2025.html
+,,The Substance,2024,Coralie Fargeat,2025-02-26,FALSE,Standard,
+,,No Country For Old Men,2007,"Joel Coen, Ethan Coen",2025-03-03,TRUE,Standard,
+,,Superman,1978,Richard Donner,2025-03-07,TRUE,Standard,
+,,Mickey 17,2025,Boon Jong Ho,2025-03-11,FALSE,Cinemark XD,https://www.tanishsmoviereviews.com/reviews/mickey_17_2025.html
+,,Novocaine,2025,"Dan Berk, Robert Olsen",2025-03-16,FALSE,Cinemark XD,
+,,3 Idiots,2009,Rajkumar Hirani,2025-03-20,TRUE,Standard,
+,,Aparajito,1956,Satyajit Ray,2025-03-23,FALSE,Standard,
+,,Black Bag,2025,Steven Soderbergh,2025-03-25,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/black_bag_2025.html
+,,Superman II,1980,Richard Lester,2025-03-29,FALSE,Standard,
+,,Phantom Thread,2017,Paul Thomas Anderson,2025-03-29,TRUE,Standard,
+,,Apur Sansar,1959,Satyajit Ray,2025-03-30,FALSE,Standard,
+,,The Gorge,2025,Scott Derrickson,2025-03-31,FALSE,Standard,
+,,Gol Maal,1979,Hrishikesh Mukherjee,2025-04-03,FALSE,Standard,
+,,Mission: Impossible II,2000,John Woo,2025-04-04,FALSE,Standard,
+,,Munich,2005,Steven Spielberg,2025-04-05,FALSE,Standard,
+,,Thief,1981,Michael Mann,2025-04-06,FALSE,Standard,
+,,A Minecraft Movie,2025,Jared Hess,2025-04-08,FALSE,Cinemark XD,
+,,The Amateur,2025,James Hawes,2025-04-15,FALSE,Standard,
+,,The Last of Us: Season One,2023,,2025-04-16,TRUE,Standard,
+,,The Dark Money Game,2025,Alex Gibney,2025-04-19,FALSE,Standard,
+,,Warfare,2025,"Alex Garland, Ray Mendoza",2025-04-20,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/warfare_2025.html
+,,Gandhi,1982,Richard Attenborough,2025-05-02,TRUE,Standard,
+,,Sinners,2025,Ryan Coogler,2025-05-03,FALSE,Standard,
+,,Paper Moon,1973,Peter Bogdanovich,2025-05-09,FALSE,Standard,
+,,Moneyball,2011,Bennett Miller,2025-05-11,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/moneyball_2025.html
+,,Thunderbolts,2025,Jake Schrier,2025-05-13,FALSE,Cinemark XD,
+,,The Celluloid Closet,1995,"Rob Epstein, Jeffrey Friedman",2025-05-15,FALSE,Standard,
+,,Call Me By Your Name,2017,Luca Guadagnino,2025-05-16,TRUE,Standard,
+,,Queer,2024,Luca Guadagnino,2025-05-17,FALSE,Standard,
+,,A Knight's Tale,2001,Brian Hedgeland,2025-05-21,TRUE,Standard,
+,,Mission: Impossible 3,2006,J.J. Abrams,2025-05-23,TRUE,Standard,
+,,Mission: Impossible - The Final Reckoning,2025,Christopher McQuarrie,2025-05-24,FALSE,Cinemark XD,
+,,The Fall Guy,2024,David Leitch,2025-05-25,TRUE,Standard,
+,,Oppenheimer,2023,Christopher Nolan,2025-05-25,TRUE,Standard,
+,,The Studio,2025,"Seth Rogen, Evan Goldberg",2025-05-25,FALSE,Standard,
+,,Say Anything,1989,Cameron Crowe,2025-05-25,TRUE,Standard,
+,,From Here to Eternity,1953,Fred Zinneman,2025-05-26,FALSE,Standard,
+,,The Last of Us: Season Two,2025,,2025-06-04,FALSE,Standard,
+,,The Informant!,2009,Steven Soderbergh,2025-06-07,TRUE,Standard,
+,,The Firm,1993,Sydney Pollack,2025-06-10,TRUE,Standard,https://www.tanishsmoviereviews.com/reviews/firm_2025.html
+,,Materialists,2025,Celine Song,2025-06-14,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/materialists_2025.html
+,,Dr. No,1962,Terence Winter,2025-06-14,TRUE,Standard,
+,,28 Years Later,2025,Danny Boyle,2025-06-24,FALSE,Cinemark XD,
+,,F1,2025,Joseph Kosinski,2025-07-03,FALSE,IMAX Dual Laser,https://www.tanishsmoviereviews.com/reviews/f1_2025.html
+,,A Real Pain,2024,Jesse Eisenberg,2025-07-04,FALSE,Standard,
+,,Jurassic World: Rebirth,2025,Gareth Edwards,2025-07-09,FALSE,Cinemark XD,https://www.tanishsmoviereviews.com/reviews/jurassic_world_rebirth_2025.html
+,,Superman,2025,James Gunn,2025-07-15,FALSE,Cinemark XD,
+,,Eddington,2025,Ari Aster,2025-07-20,FALSE,Standard,https://www.tanishsmoviereviews.com/reviews/eddington_2025.html
+,,Fallout,2024,Jonathan Nolan,2025-07-25,FALSE,Standard,
+,,Fantastic Four: The First Steps,2025,Matt Shakman,2025-07-29,FALSE,Cinemark XD,
+,,The Outlaw Josey Wales,1976,Clint Eastwood,2025-07-30,FALSE,Standard,
+,,Pale Rider,1985,Clint Eastwood,2025-07-31,FALSE,Standard,
+,,Red Eye,2005,Wes Craven,2025-08-01,FALSE,Standard,
+,,The Naked Gun,2025,Akiva Schaffer,2025-08-05,FALSE,Standard,
+,,Meet the Parents,1999,Jay Roach,2025-08-08,TRUE,Standard,
+,,Weapons,2025,Zach Cregger,2025-08-09,FALSE,Cinemark XD,https://www.tanishsmoviereviews.com/reviews/weapons_2025.html
+,,F1,2025,Joseph Kosinski,2025-08-22,TRUE,IMAX Laser,
+,,Westworld: Season 1,2016,Jonathan Nolan; Lisa Joy,2025-08-23,FALSE,Standard,
+,,The Revenant,2015,Alejandro G. Iñárritu,2025-08-24,TRUE,Standard,
+,,Jaws,1975,Steven Spielberg,2025-08-30,TRUE,IMAX Laser,
+,,Notting Hill,1999,Roger Michell,2025-09-06,FALSE,Standard,
+,,Steve Jobs,2015,Danny Boyle,2025-09-25,TRUE,Standard,
+,,One Battle After Another,2025,Paul Thomas Anderson,2025-09-27,FALSE,Cinemark XD,
+,,The Social Network,2010,David Fincher,2025-10-04,TRUE,Standard,
+,,Tron: Ares,2025,Joachim Rønning,2025-10-10,FALSE,Cinemark XD,
+,,Body Double,1984,Brian De Palma,2025-10-11,FALSE,Standard,
+,,Westworld: Season 2,2018,Jonathan Nolan; Lisa Joy,2025-10-24,FALSE,Standard,
+,,The Lord of the Rings: The Two Towers,2002,Peter Jackson,2025-10-24,TRUE,Standard,
+,,Mr. Scorsese,2025,Rebecca Miller,2025-11-10,FALSE,Standard,
+,,John Wick,2014,Chad Stahelski,2025-11-15,TRUE,Standard,
+,,The Running Man,2025,Edgar Wright,2025-11-15,FALSE,Cinemark XD,
+,,Tron,1982,Steven Lisberger,2025-11-16,FALSE,Standard,
+,,Tron: Legacy,2010,Joseph Kosinski,2025-11-16,TRUE,Standard,
+,,Dune,2021,Denis Villeneuve,2025-11-21,TRUE,Standard,
+,,Dune: Part Two,2024,Denis Villeneuve,2025-11-22,TRUE,Standard,
+,,The Place Beyond the Pines,2012,Derek Cianfrance,2025-11-22,FALSE,Standard,
+,,After the Hunt,2025,Luca Guadagnino,2025-11-23,FALSE,Standard,
+,,Predator: Badlands,2025,Dan Trachtenberg,2025-11-28,FALSE,Standard,
+,,Good Fortune,2025,Aziz Ansari,2025-11-30,FALSE,Standard,
+,,One Battle After Another,2025,Paul Thomas Anderson,2025-12-05,TRUE,Standard,
+,,Erin Brockovich,2000,Steven Soderbergh,2025-12-06,FALSE,Standard,
+,,Hamnet,2025,Chloé Zhao,2025-12-09,FALSE,Standard,
+,,Wake Up Sid,2009,Ayan Mukherji,2025-12-11,FALSE,Standard,
+,,Anaconda,1997,Luis Llosa,2025-12-13,FALSE,Standard,
+,,Airport,1970,George Seaton,2025-12-13,FALSE,Standard,
+,,Sholay,1975,Ramesh Sippy,2025-12-14,FALSE,Standard,
+,,Avatar: Fire and Ash,2025,James Cameron,2025-12-20,FALSE,Dolby Cinema,
+,,Avatar: The Way of Water,2022,James Cameron,2025-12-23,TRUE,Standard,
+,,So This Is Love,1928,Frank Capra,2025-12-27,FALSE,Standard,
+,,Allied,2016,Robert Zemeckis,2025-12-27,FALSE,Standard,
+,,Arrival,2016,Denis Villeneuve,2025-12-28,TRUE,Standard,
+,,Marty Supreme,2025,Josh Safdie,2025-12-29,FALSE,Standard,
