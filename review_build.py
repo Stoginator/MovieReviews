@@ -629,7 +629,7 @@ def render_article_body(blocks):
         
         if btype == 'paragraph':
             html_text = format_inline(block['text'])
-            current_section.append(f'                    <p>{html_text}</p>')
+            current_section.append(f'                    <p>{html_text}</p>\n')
         
         elif btype == 'dialogue':
             current_section.append(render_dialogue(block['exchanges']))
