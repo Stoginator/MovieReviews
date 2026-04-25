@@ -482,7 +482,7 @@ def parse_metadata(lines):
         ]
         
         if key in multi_fields:
-            metadata[key] = [v.strip() for v in value.split(',') if v.strip()]
+            metadata[key] = [v.strip() for v in value.split(';') if v.strip()]
         else:
             metadata[key] = value
     
