@@ -50,13 +50,13 @@ Markdown Format:
     ---
     
     directed_by: Steven Spielberg
-    written_by: Scott Frank, Jon Cohen
+    written_by: Scott Frank; Jon Cohen
     music_by: John Williams
-    selected_tracks: Track One, Track Two
+    selected_tracks: Track One; Track Two
     release_date: June 21, 2002
     budget: $102 million
     box_office: $358.4 million
-    production_company: Company A, Company B
+    production_company: Company A; Company B
     distribution_company: Company C
     poster: filename.jpg
     card_image: filename.webp
@@ -395,6 +395,39 @@ def parse_body(lines):
             idx += 1
             continue
         
+        # Unordered list: consecutive lines starting with "- " or "* "
+        if line.startswith('- ') or line.startswith('* '):
+            items = []
+            while idx < len(lines):
+                l = lines[idx].strip()
+                if not l:
+                    break
+                if l.startswith('- ') or l.startswith('* '):
+                    items.append(l[2:])
+                    idx += 1
+                else:
+                    break
+            if items:
+                blocks.append({'type': 'list', 'items': items})
+            continue
+        
+        # Ordered list: consecutive lines starting with "1. ", "2. ", etc.
+        if re.match(r'^\d+\. ', line):
+            items = []
+            while idx < len(lines):
+                l = lines[idx].strip()
+                if not l:
+                    break
+                m = re.match(r'^\d+\. (.*)', l)
+                if m:
+                    items.append(m.group(1))
+                    idx += 1
+                else:
+                    break
+            if items:
+                blocks.append({'type': 'ordered_list', 'items': items})
+            continue
+        
         # Regular paragraph: collect lines until blank or special block
         para_lines = []
         while idx < len(lines):
@@ -406,6 +439,10 @@ def parse_body(lines):
             if l.startswith(':::carousel'):
                 break
             if _is_image_line(l):
+                break
+            if l.startswith('- ') or l.startswith('* '):
+                break
+            if re.match(r'^\d+\. ', l):
                 break
             para_lines.append(l)
             idx += 1
@@ -419,14 +456,37 @@ def parse_body(lines):
     return blocks
 
 
+def _match_character_line(line):
+    """Check if a line is a character name line.
+    
+    Recognizes two conventions:
+    1. Fully bolded: **Name** (any case, e.g. **Odysseus**)
+    2. Plain all-uppercase: NAME (e.g. ODYSSEUS)
+    
+    Returns the character name if matched, else None.
+    """
+    stripped = line.strip()
+    
+    # Convention 1: entirely wrapped in ** ** -> name regardless of case
+    bold_match = re.match(r'^\*\*(.+?)\*\*$', stripped)
+    if bold_match:
+        return bold_match.group(1)
+    
+    # Convention 2: plain all-uppercase line
+    if re.match(r'^[A-Z][A-Z\s.\'\-]*$', stripped):
+        return stripped
+    
+    return None
+
+
 def parse_dialogue(lines):
     """Parse dialogue lines into (character, dialogue) pairs.
     
-    Input format:
-        CHARACTER NAME
+    Input format (character name line can be **Bold Case** or ALL CAPS):
+        **Character Name**
         Line of dialogue.
         
-        ANOTHER CHARACTER
+        **Another Character**
         Their dialogue.
     """
     exchanges = []
@@ -439,18 +499,15 @@ def parse_dialogue(lines):
             idx += 1
             continue
         
-        # Character name: all-uppercase line (optionally wrapped in ** bold **)
-        clean_line = re.sub(r'^\*\*(.+?)\*\*$', r'\1', line.strip())
-        if re.match(r'^[A-Z][A-Z\s.\'\-]*$', clean_line):
-            character = clean_line
+        character = _match_character_line(line)
+        if character is not None:
             idx += 1
             dialogue_parts = []
             while idx < len(lines):
                 dline = lines[idx].rstrip()
                 if not dline.strip():
                     break
-                clean_dline = re.sub(r'^\*\*(.+?)\*\*$', r'\1', dline.strip())
-                if re.match(r'^[A-Z][A-Z\s.\'\-]*$', clean_dline):
+                if _match_character_line(dline) is not None:
                     break
                 dialogue_parts.append(dline.strip())
                 idx += 1
@@ -630,6 +687,24 @@ def render_article_body(blocks):
         if btype == 'paragraph':
             html_text = format_inline(block['text'])
             current_section.append(f'                    <p>{html_text}</p>\n')
+        
+        elif btype == 'list':
+            items_html = '\n'.join(
+                f'                        <li>{format_inline(item)}</li>'
+                for item in block['items']
+            )
+            current_section.append(
+                f'                    <ul>\n{items_html}\n                    </ul>\n'
+            )
+        
+        elif btype == 'ordered_list':
+            items_html = '\n'.join(
+                f'                        <li>{format_inline(item)}</li>'
+                for item in block['items']
+            )
+            current_section.append(
+                f'                    <ol>\n{items_html}\n                    </ol>\n'
+            )
         
         elif btype == 'dialogue':
             current_section.append(render_dialogue(block['exchanges']))
