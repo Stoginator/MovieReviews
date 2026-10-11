@@ -167,7 +167,7 @@ def parse_markdown(filepath):
     data['metadata'] = parse_metadata(metadata_lines)
     
     # Build filename from title + review year: "Blade Runner 2049" (2026) → blade_runner_2049_2026.html
-    title_slug = re.sub(r'[^a-z0-9]+', '_', data['title'].lower()).strip('_')
+    title_slug = re.sub(r'[^a-z0-9]+', '_', re.sub(r'^\s*the\s+', '', data['title'].lower())).strip('_')
     review_year = data.get('review_year', '')
     data['html_filename'] = f"{title_slug}_{review_year}.html"
     
