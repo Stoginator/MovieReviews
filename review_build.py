@@ -25,6 +25,8 @@ Markdown Format:
     **bold**     -> <b>bold</b>
     [text](url)  -> <a href="url">text</a>
     <q>text</q>  -> passed through as-is
+    \\* or \\_   -> literal * or _ (escaped, not read as formatting;
+                     e.g. F\\*\\*king -> F**king for censoring profanity)
     
     ![](filename.webp)                -> inline photo
     
@@ -78,14 +80,24 @@ BASE_URL = "https://stoginator.github.io/MovieReviews"
 
 def format_inline(text):
     """Convert inline Markdown formatting to HTML.
-    
+
     Order matters:
-    1. Protect links and raw HTML from other replacements
-    2. Bold **text**
-    3. Cite _text_ (work titles)
-    4. Emphasis *text*
-    5. Restore protected content
+    1. Protect backslash-escaped characters (\\* \\_) so they pass through literally
+    2. Protect links and raw HTML from other replacements
+    3. Bold **text**
+    4. Cite _text_ (work titles)
+    5. Emphasis *text*
+    6. Restore protected content (escapes last, so nothing re-interprets them)
     """
+    # Protect backslash-escaped markers: \* and \_ -> literal character,
+    # untouched by the bold/cite/emphasis passes below. Used for things like
+    # censoring profanity (F\*\*king -> F**king) without it being read as bold.
+    escapes = []
+    def save_escape(m):
+        escapes.append(m.group(1))
+        return f'\x00ESC{len(escapes)-1}\x00'
+    text = re.sub(r'\\([*_])', save_escape, text)
+
     # Protect links: [text](url) -> placeholder
     # Process inline formatting within link text first
     links = []
@@ -121,7 +133,11 @@ def format_inline(text):
     # Restore links
     for i, link in enumerate(links):
         text = text.replace(f'\x00LINK{i}\x00', link)
-    
+
+    # Restore escaped characters last, as literal text
+    for i, ch in enumerate(escapes):
+        text = text.replace(f'\x00ESC{i}\x00', ch)
+
     return text
 
 
@@ -167,7 +183,7 @@ def parse_markdown(filepath):
     data['metadata'] = parse_metadata(metadata_lines)
     
     # Build filename from title + review year: "Blade Runner 2049" (2026) → blade_runner_2049_2026.html
-    title_slug = re.sub(r'[^a-z0-9]+', '_', re.sub(r'^\s*the\s+', '', data['title'].lower())).strip('_')
+    title_slug = re.sub(r'[^a-z0-9]+', '_', data['title'].lower()).strip('_')
     review_year = data.get('review_year', '')
     data['html_filename'] = f"{title_slug}_{review_year}.html"
     
@@ -479,40 +495,70 @@ def _match_character_line(line):
     return None
 
 
+def _match_parenthetical_line(line):
+    """Check if a line is a parenthetical stage direction: (looks out window)
+
+    Must be the whole line, fully wrapped in parentheses.
+    """
+    stripped = line.strip()
+    if re.match(r'^\(.+\)$', stripped):
+        return stripped
+    return None
+
+
 def parse_dialogue(lines):
-    """Parse dialogue lines into (character, dialogue) pairs.
-    
+    """Parse dialogue lines into (character, segments) pairs.
+
+    segments is an ordered list of ('dialogue', text) / ('parenthetical', text)
+    tuples, so a stage direction in the middle of a speech stays its own
+    segment instead of being flattened into the surrounding dialogue text.
+
     Input format (character name line can be **Bold Case** or ALL CAPS):
         **Character Name**
         Line of dialogue.
-        
+        (a parenthetical, on its own line)
+        More dialogue.
+
         **Another Character**
         Their dialogue.
     """
     exchanges = []
     idx = 0
-    
+
     while idx < len(lines):
         line = lines[idx].rstrip()
-        
+
         if not line.strip():
             idx += 1
             continue
-        
+
         character = _match_character_line(line)
         if character is not None:
             idx += 1
+            segments = []
             dialogue_parts = []
+
+            def flush_dialogue():
+                if dialogue_parts:
+                    segments.append(('dialogue', ' '.join(dialogue_parts)))
+                    dialogue_parts.clear()
+
             while idx < len(lines):
                 dline = lines[idx].rstrip()
                 if not dline.strip():
                     break
                 if _match_character_line(dline) is not None:
                     break
-                dialogue_parts.append(dline.strip())
+                parenthetical = _match_parenthetical_line(dline)
+                if parenthetical is not None:
+                    flush_dialogue()
+                    segments.append(('parenthetical', parenthetical))
+                else:
+                    dialogue_parts.append(dline.strip())
                 idx += 1
-            dialogue = ' '.join(dialogue_parts)
-            exchanges.append((character, dialogue))
+
+            flush_dialogue()
+            exchanges.append((character, segments))
         else:
             idx += 1
     
@@ -761,12 +807,16 @@ def render_article_body(blocks):
 def render_dialogue(exchanges):
     """Render dialogue exchanges as <ul class="script-list">."""
     items = []
-    for i, (character, dialogue) in enumerate(exchanges):
+    for i, (character, segments) in enumerate(exchanges):
         if i > 0:
             items.append('                        <li><br></li>')
         items.append(f'                        <li class="character-name">{character}</li> ')
-        items.append(f'                        <li class="dialogue">{format_inline(dialogue)}</li>')
-    
+        for seg_type, text in segments:
+            if seg_type == 'parenthetical':
+                items.append(f'                        <li class="parenthetical">{format_inline(text)}</li>')
+            else:
+                items.append(f'                        <li class="dialogue">{format_inline(text)}</li>')
+
     inner = '\n'.join(items)
     return (
         f'                    <ul class="script-list">\n'

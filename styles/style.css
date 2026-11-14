@@ -830,6 +830,12 @@ hr.rounded {
     padding-right: 25%
 }
 
+.parenthetical {
+    width: 58%;
+    font: italic 18px Courier, fixed;
+    margin-left: 18%;
+}
+
 @media only screen and (min-width: 600px) {
 
     .character-name {
@@ -840,6 +846,11 @@ hr.rounded {
     .dialogue { 
         width: 50%;
         margin-left: 20%;
+    }
+
+    .parenthetical {
+        width: 38%;
+        margin-left: 26%;
     }
 }
 
@@ -854,6 +865,11 @@ hr.rounded {
         width: 60%;
         margin-left: 20%;
     }
+
+    .parenthetical {
+        width: 48%;
+        margin-left: 26%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -866,6 +882,11 @@ hr.rounded {
     .dialogue { 
         width: 40%;
         margin-left: 30%;
+    }
+
+    .parenthetical {
+        width: 30%;
+        margin-left: 34%;
     }
 }
 
